@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:TransferWorker.UI.Lang">
+
+    <sys:String x:Key="Connect">KẾT NỐI</sys:String>
+    <sys:String x:Key="Backup">SAO LƯU</sys:String>
+    <sys:String x:Key="Restore">PHỤC HỒI</sys:String>
+    <sys:String x:Key="Setting">CÀI ĐẶT CHUNG</sys:String>
+    <sys:String x:Key="Information">THÔNG TIN</sys:String>
+    <sys:String x:Key="History">LỊCH SỬ</sys:String>
+    <sys:String x:Key="BackupList">Tác vụ sao lưu</sys:String>
+    <sys:String x:Key="ConnectList">Dánh sách kết nối</sys:String>
+    <sys:String x:Key="ContainerList">Vùng chứa đích</sys:String>
+
+    <sys:String x:Key="Copyright">Bản quyền (C) 2020 TSG</sys:String>
+    <sys:String x:Key="ExpirationDate">Ngày hết hạn:</sys:String>
+    <sys:String x:Key="UpdateLisence">Cập nhật bản quyền</sys:String>
+
+    <sys:String x:Key="NotInputName">Bạn chưa nhập tên kết nối</sys:String>
+
+</ResourceDictionary>

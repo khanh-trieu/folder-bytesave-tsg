@@ -1,0 +1,1707 @@
+2021-03-23 09:23:49.1249 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:24:38.5924 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:24:38.7521 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:24:39.2975 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:24:43.0838 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:24:44.8115 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:24:51.7198 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:24:53.4319 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:25:08.4072 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:25:10.0718 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:30:26.9594 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:30:48.2763 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:30:48.4931 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:30:48.7691 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:30:49.5695 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:30:56.8629 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:34:37.3051 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:36:09.7458 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:36:58.7415 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:36:58.9886 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:36:59.2235 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:37:00.2093 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:37:10.4341 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:37:34.5264 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:37:34.7211 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:37:36.3863 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:37:39.2559 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:37:42.1357 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:37:48.9731 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:38:20.2315 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:38:20.8808 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:38:22.3193 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:38:43.8110 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:39:40.2333 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:39:40.4161 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:39:41.8236 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:39:46.3590 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:40:33.7200 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:40:55.5786 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:40:55.7088 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:40:57.2396 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:41:18.9514 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:41:45.3858 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:41:45.7005 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:41:57.0333 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:45:21.0751 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:45:34.0456 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:45:34.3177 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:45:34.5745 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:45:38.3679 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:45:45.0367 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:45:49.2283 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:46:13.9329 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:46:14.1919 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:46:18.2559 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:48:04.4066 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:48:37.3939 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs)
+2021-03-23 09:48:42.9838 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:48:45.9756 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:54:14.3926 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:54:57.1272 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:55:24.4476 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:55:24.9933 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:55:25.1096 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:55:29.3066 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:55:31.2037 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:55:35.1953 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:55:55.3841 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:55:55.5412 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:55:57.4559 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:57:58.4491 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:58:08.5662 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:58:08.9911 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:58:09.0950 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:58:14.1681 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:58:14.1891 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:58:16.9467 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:58:25.7466 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:58:26.4865 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:58:48.5366 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:58:48.7620 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:58:48.7620 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:58:51.5061 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:58:53.8760 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:58:58.9829 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 09:58:59.8790 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:59:41.7154 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 09:59:42.1171 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 09:59:42.1217 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 09:59:44.7842 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 09:59:46.8481 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 09:59:52.4442 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:00:09.0049 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs)
+2021-03-23 10:00:09.1789 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:00:11.5972 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:00:13.3040 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:00:16.5621 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:00:32.9504 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs)
+2021-03-23 10:00:33.0158 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:00:33.1495 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:00:34.4396 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:00:56.1280 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:00:57.5526 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:01:00.7580 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:01:31.4920 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs)
+2021-03-23 10:01:31.5427 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:01:53.8211 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:01:56.1929 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:01:57.7598 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:02:22.3227 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:03:20.5022 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs)
+2021-03-23 10:03:20.5567 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:04:51.5131 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:05:13.5716 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:05:13.7950 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:05:13.9373 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:05:16.2348 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:05:16.8224 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:05:16.8730 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:05:18.2314 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:05:18.2586 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:05:30.7168 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:05:33.1441 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:05:34.8091 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:05:48.9480 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:06:15.8341 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:06:15.9939 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:06:16.0024 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:06:17.7250 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:06:17.7323 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:06:20.2965 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:06:22.2717 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:06:23.7998 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:06:37.5246 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:06:55.7869 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:06:55.9919 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:06:56.0006 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:07:02.6384 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:07:03.2561 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:13:05.6145 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:13:14.6119 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:13:14.8581 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:13:15.6367 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:13:19.2012 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:13:19.6190 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:13:19.6725 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:13:21.8631 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:13:21.8631 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:13:28.8507 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:13:52.1277 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:13:52.3167 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:13:52.6742 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.InvalidOperationException: Process was not started by this object, so requested information cannot be determined.
+   at System.Diagnostics.Process.get_StartInfo()
+   at System.Windows.Forms.Application.Restart()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 158
+2021-03-23 10:15:57.0213 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:16:07.4039 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:16:07.6076 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:16:07.7109 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:16:13.3394 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:16:14.1082 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:16:14.1288 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:16:14.3353 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:16:14.3619 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:17:38.9535 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:18:13.7064 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:18:13.9057 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:18:13.9831 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:18:14.6441 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:18:14.9845 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:18:14.9973 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:18:15.1376 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:18:15.1376 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:19:05.4957 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:19:38.3873 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:19:38.5386 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:19:38.6246 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:19:39.3113 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:19:39.6800 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:19:39.6965 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:19:39.8271 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:19:39.8271 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:25:39.0226 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:26:11.5861 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:26:11.7998 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:26:12.4036 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:26:12.9625 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:26:13.7224 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:26:13.7345 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:26:13.8822 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:26:13.8877 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:39:20.1488 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:39:46.6189 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:39:46.7774 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:39:46.8535 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:39:47.4316 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:39:47.7947 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:39:47.7947 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:39:48.0377 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:39:48.1061 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:39:52.1467 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:40:09.1289 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:40:09.3610 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:40:09.3610 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:40:09.5886 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:09.6136 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:40:10.9870 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:14.2183 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:17.2733 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:23.9536 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:27.4095 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:30.7976 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 10:40:47.8533 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 729
+2021-03-23 10:40:48.0154 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 835
+2021-03-23 10:40:48.0154 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 10:40:48.1828 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 10:40:48.2136 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 10:40:49.4592 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:14:03.2942 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:14:06.7300 ERROR :	LogginView.check_is_logged 
+	[check_is_logged] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.check_is_logged() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 42
+2021-03-23 13:14:57.3983 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:15:02.3244 ERROR :	LogginView.check_is_logged 
+	[check_is_logged] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.check_is_logged() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 42
+2021-03-23 13:15:48.8526 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-23 13:16:18.2487 ERROR :	<get_setting_to_server>d__37.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 727
+2021-03-23 13:16:20.4684 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 833
+2021-03-23 13:16:20.7303 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 13:32:24.2728 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:32:31.3929 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:32:33.8700 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:32:34.1413 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 13:32:35.0842 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:32:36.0926 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 13:33:42.8543 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:33:58.5664 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:34:00.7791 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:34:02.3342 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:34:04.2299 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:34:12.4048 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:34:30.7368 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:34:32.9662 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:34:34.2702 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:37:14.2498 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:37:16.4513 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:38:27.6319 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:38:30.3032 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:38:37.3197 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:38:39.7272 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:38:45.9287 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:38:48.1120 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:49:01.9032 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:49:17.8565 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:49:20.0837 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:49:29.2189 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:49:56.8593 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: An error occurred while sending the request. Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.FillAsync()
+   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean foldedHeadersAllowed)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:49:59.0873 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:50:09.5389 ERROR :	MainUtility.create_setting_to_server 
+	[create_backup_to_server] -> System.Net.WebException: The remote server returned an error: (404) NOT FOUND.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.create_setting_to_server(Int32 id, String email_loggin, String server_mail, String port, String mail_send, String mail_send_pwd, String subject) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 769
+2021-03-23 13:50:11.7124 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:51:29.7230 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:51:39.4794 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:51:41.9007 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:51:42.0501 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 13:51:43.0779 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:51:43.5610 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 13:54:10.7538 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:54:33.4321 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:54:35.8382 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:54:56.5983 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:55:24.7830 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 730
+2021-03-23 13:55:27.0711 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:55:49.9904 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:56:18.7768 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:56:37.0318 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:56:39.2652 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:56:48.0768 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:57:15.2375 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 730
+2021-03-23 13:57:17.6567 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:57:33.1437 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:57:36.7094 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:57:52.0622 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:57:54.6538 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:58:00.1899 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 13:58:06.8465 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:58:22.9605 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:58:25.1320 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:58:56.6309 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 13:59:40.3312 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 13:59:42.5207 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 13:59:44.6299 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:02:42.9431 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'TransferWorker.UI.Models.setting_bytesave' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'data'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at Newtonsoft.Json.Linq.JToken.ToObject[T]()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 737
+2021-03-23 14:02:45.1957 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 14:02:48.5337 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:03:13.4008 ERROR :	<get_setting_to_server>d__39.MoveNext 
+	[create_backup_to_server] -> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.get_setting_to_server(AppJson configs) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 730
+2021-03-23 14:03:15.6305 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: No connection could be made because the target machine actively refused it. No connection could be made because the target machine actively refused it.
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 843
+2021-03-23 14:04:50.5977 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:05:12.1093 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 14:05:12.8140 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:05:13.5250 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 14:06:06.2789 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:08:06.0712 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:08:17.7163 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 14:08:18.5142 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:08:19.1357 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 14:08:23.9593 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:08:37.6952 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:55:17.3720 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:55:25.1779 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 14:55:25.7885 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 14:55:26.1983 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 14:55:33.9824 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 14:55:55.6721 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 15:37:28.6701 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 15:37:36.4837 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 15:37:37.2100 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 15:37:37.8012 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-23 15:42:02.5992 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 15:43:40.9510 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 15:46:20.9049 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 15:47:24.9568 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-23 15:47:39.6132 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-23 15:47:40.3778 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-23 15:47:40.9503 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect

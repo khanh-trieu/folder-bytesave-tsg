@@ -1,0 +1,325 @@
+2021-03-16 10:26:07,072 main_process
+2021-03-16 10:26:07,597 get_time_ex
+2021-03-16 10:26:08,056 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:26:09,068 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:26:30,943 get_time_ex -- >true
+2021-03-16 10:26:31,781 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:26:32,879 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:19,427 rets --> False
+2021-03-16 10:27:20,464 rets --> False
+2021-03-16 10:27:21,628 get_time_ex
+2021-03-16 10:27:21,779 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:22,293 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:22,742 get_time_ex -- >true
+2021-03-16 10:27:23,375 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:24,438 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:32,106 rets --> False
+2021-03-16 10:27:32,106 rets --> False
+2021-03-16 10:27:32,107 get_time_ex
+2021-03-16 10:27:32,215 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:32,750 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:32,751 get_time_ex -- >true
+2021-03-16 10:27:32,854 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:33,951 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:33,954 rets --> False
+2021-03-16 10:27:33,954 rets --> False
+2021-03-16 10:27:33,954 get_time_ex
+2021-03-16 10:27:34,068 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:34,544 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:34,547 get_time_ex -- >true
+2021-03-16 10:27:34,675 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:35,752 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:35,754 rets --> False
+2021-03-16 10:27:35,755 rets --> False
+2021-03-16 10:27:35,755 get_time_ex
+2021-03-16 10:27:35,875 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:36,360 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:36,362 get_time_ex -- >true
+2021-03-16 10:27:36,488 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:37,578 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:37,581 rets --> False
+2021-03-16 10:27:37,581 rets --> False
+2021-03-16 10:27:37,582 get_time_ex
+2021-03-16 10:27:37,707 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:38,204 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:38,205 get_time_ex -- >true
+2021-03-16 10:27:38,359 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:39,441 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:39,444 rets --> False
+2021-03-16 10:27:39,444 rets --> False
+2021-03-16 10:27:39,445 get_time_ex
+2021-03-16 10:27:39,560 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:40,039 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:40,041 get_time_ex -- >true
+2021-03-16 10:27:40,202 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:41,255 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:41,257 rets --> False
+2021-03-16 10:27:41,258 rets --> False
+2021-03-16 10:27:41,258 get_time_ex
+2021-03-16 10:27:41,400 Starting new HTTP connection (--03-16 10:27:41,964 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:41,968 get_time_ex -- >true
+2021-03-16 10:27:42,146 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:43,253 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:43,256 rets --> False
+2021-03-16 10:27:43,256 rets --> False
+2021-03-16 10:27:43,256 get_time_ex
+2021-03-16 10:27:43,364 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:43,922 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:43,924 get_time_ex -- >true
+2021-03-16 10:27:44,043 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:45,357 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:45,359 rets --> False
+2021-03-16 10:27:45,360 rets --> False
+2021-03-16 10:27:45,360 get_time_ex
+2021-03-16 10:27:45,511 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:46,028 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:46,030 get_time_ex -- >true
+2021-03-16 10:27:46,160 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:47,325 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:47,499 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:47,983 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:47,986 get_time_ex -- >true
+2021-03-16 10:27:48,100 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:49,231 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:49,232 rets --> False fdfdf 99999 fd9 9d9f9sdf9 sd9f9d9f9d
+2021-03-16 10:27:49,233 rets --> False
+2021-03-16 10:27:49,233 get_time_ex  999
+2021-03-16 10:27:49,363 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:49,873 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:49,875 get_time_ex -- >true
+2021-03-16 10:27:50,057 Starting new HT2021-03-16 10:27:47,328 rets --> False
+2021-03-16 10:27:47,329 rets --> False
+2021-03-16 10:27:47,329 get_time_ex
+TP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:51,152 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:51,155 rets --> False
+2021-03-16 10:27:51,155 rets --> False
+2021-03-16 10:27:51,156 get_time_ex
+2021-03-16 10:27:51,261 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:51,828 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:51,829 get_time_ex -- >true
+2021-03-16 10:27:51,941 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:53,081 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:53,084 rets --> False
+2021-03-16 10:27:53,085 rets --> False
+2021-03-16 10:27:53,086 get_time_ex
+2021-03-16 10:27:53,689 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:54,291 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:54,293 get_time_ex -- >true
+2021-03-16 10:27:54,957 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:56,257 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:27:56,260 rets --> False
+2021-03-16 10:27:56,260 rets --> False
+2021-03-16 10:27:56,261 get_time_ex
+2021-03-16 10:27:56,401 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:56,900 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:56,902 get_time_ex -- >true
+2021-03-16 10:27:57,031 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:58,105 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:-03-16 10:28:16,726 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:16,729 rets --> False
+2021-03-16 10:28:16,730 rets --> False
+2021-03-16 10:28:16,730 get_time_ex
+2021-03-16 10:28:16,917 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:17,402 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:17,404 get_time_ex -- >true
+2021-03-16 10:28:17,523 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:18,699 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:18,702 rets --> False
+2021-03-16 10:28:18,702 rets --> False
+2021-03-16 10:28:18,703 get_time_ex
+2021-03-16 10:28:18,856 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:19,349 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:19,351 get_time_ex -- >true
+2021-03-16 10:28:19,476 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:20,735 http://1279,089 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:30,171 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:30,172 rets --> False27:58,109 rets --> False
+2021-03-16 10:27:58,109 rets --> False
+2021-03-16 10:27:58,110 get_time_ex
+2021-03-16 10:27:58,357 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:27:59,071 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:27:59,073 get_time_ex -- >true
+2021-03-16 10:27:59,291 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:00,754 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:00,757 rets --> False
+2021-03-16 10:28:00,757 rets --> False
+2021-03-16 10:28:00,757 get_time_ex
+2021-03-16 10:28:00,868 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:01,588 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:01,590 get_time_ex -- >true
+2021-03-16 10:28:02,070 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:03,201 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:03,204 rets --> False
+2021-03-16 10:28:03,204 rets --> False
+2021-03-16 10:28:03,204 get_time_ex
+2021-03-16 10:28:03,306 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:03,799 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:03,802 get_time_ex -- >true
+2021-03-16 10:28:04,163 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:05,548 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:05,551 rets --> False
+2021-03-16 10:28:05,552 rets --> False
+2021-03-16 10:28:05,552 get_time_ex
+2021-03-16 10:28:05,658 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:06,475 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:06,478 get_time_ex -- >true
+2021-03-16 10:28:07,158 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:08,469 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:08,471 rets --> False
+2021-03-16 10:28:08,472 rets --> False
+2021-03-16 10:28:08,472 get_time_ex
+2021-03-16 10:28:08,607 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:09,093 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:09,095 get_time_ex -- >true
+2021-03-16 10:28:09,220 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:10,283 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:10,284 rets --> False
+2021-03-16 10:28:10,285 rets --> False
+2021-03-16 10:28:10,285 get_time_ex
+2021-03-16 10:28:10,404 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:10,877 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:10,879 get_time_ex -- >true
+2021-03-16 10:28:11,000 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:12,022 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:12,025 rets --> False
+2021-03-16 10:28:12,025 rets --> False
+2021-03-16 10:28:12,026 get_time_ex
+2021-03-16 10:28:12,146 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:12,661 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:12,662 get_time_ex -- >true
+2021-03-16 10:28:12,833 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:14,240 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:14,242 rets --> False
+2021-03-16 10:28:14,243 rets --> False
+2021-03-16 10:28:14,243 get_time_ex
+2021-03-16 10:28:14,850 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:15,362 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:15,364 get_time_ex -- >true
+2021-03-16 10:28:15,646 Starting new HTTP connection (1): 127.0.0.1:8082
+2021
+2021-03-16 10:28:30,173 rets --> False
+2021-03-16 10:28:30,173 get_time_ex
+2021-03-16 10:28:30,766 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:31.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:20,738 rets --> False
+2021-03-16 10:28:20,738 rets --> False
+2021-03-16 10:28:20,739 get_time_ex
+2021-03-16 10:28:21,546 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:22,111 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:22,114 get_time_ex -- >true
+2021-03-16 10:28:22,230 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:23,525 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:23,528 rets --> False
+2021-03-16 10:28:23,529 rets --> False
+2021-03-16 10:28:23,529 get_time_ex
+2021-03-16 10:28:23,733 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:24,418 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:24,420 get_time_ex -- >true
+2021-03-16 10:28:25,471 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:26,519 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:26,522 rets --> False
+2021-03-16 10:28:26,522 rets --> False
+2021-03-16 10:28:26,523 get_time_ex
+2021-03-16 10:28:26,653 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:27,129 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:27,131 get_time_ex -- >true
+2021-03-16 10:28:27,255 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:28,322 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:28,324 rets --> False
+2021-03-16 10:28:28,325 rets --> False
+2021-03-16 10:28:28,325 get_time_ex
+2021-03-16 10:28:28,428 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:28,928 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:28,932 get_time_ex -- >true
+2021-03-16 10:28:2,275 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:31,278 get_time_ex -- >true
+2021-03-16 10:28:31,421 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:32,553 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:32,555 rets --> False
+2021-03-16 10:28:32,556 rets --> False
+2021-03-16 10:28:32,556 get_time_ex
+2021-03-16 10:28:32,884 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:33,379 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:33,381 get_time_ex -- >true
+2021-03-16 10:28:33,584 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:34,821 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:34,824 rets --> False
+2021-03-16 10:28:34,825 rets --> False
+2021-03-16 10:28:34,825 get_time_ex
+2021-03-16 10:28:34,984 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:35,488 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:35,491 get_time_ex -- >true
+2021-03-16 10:28:36,049 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:37,505 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:37,508 rets --> False
+2021-03-16 10:28:37,508 rets --> False
+2021-03-16 10:28:37,509 get_time_ex
+2021-03-16 10:28:38,152 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:38,748 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:38,751 get_time_ex -- >true
+2021-03-16 10:28:39,259 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:40,486 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:40,489 rets --> False
+2021-03-16 10:28:40,489 rets --> False
+2021-03-16 10:28:40,490 get_time_ex
+2021-03-16 10:28:40,609 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:41,158 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:41,160 get_time_ex -- >true
+2021-03-16 10:28:41,468 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:42,743 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:42,747 rets --> False
+2021-03-16 10:28:42,748 rets --> False
+2021-03-16 10:28:42,748 get_time_ex
+2021-03-16 10:28:43,032 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:43,521 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:43,524 get_time_ex -- >true
+2021-03-16 10:28:43,867 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:45,190 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:45,193 rets --> False
+2021-03-16 10:28:45,194 rets --> False
+2021-03-16 10:28:45,194 get_time_ex
+2021-03-16 10:28:45,813 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:46,343 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:46,345 get_time_ex -- >true
+2021-03-16 10:28:46,501 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:47,659 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:47,662 rets --> False
+2021-03-16 10:28:47,662 rets --> False
+2021-03-16 10:28:47,663 get_time_ex
+2021-03-16 10:28:47,899 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:48,392 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:48,394 get_time_ex -- >true
+2021-03-16 10:28:48,508 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:49,557 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:49,559 rets --> False
+2021-03-16 10:28:49,560 rets --> False
+2021-03-16 10:28:49,560 get_time_ex
+2021-03-16 10:28:49,671 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:50,150 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:50,152 get_time_ex -- >true
+2021-03-16 10:28:50,266 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:51,292 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:51,293 rets --> False
+2021-03-16 10:28:51,294 rets --> False
+2021-03-16 10:28:51,294 get_time_ex
+2021-03-16 10:28:51,432 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:51,926 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:51,929 get_time_ex -- >true
+2021-03-16 10:28:52,095 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:53,207 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:53,210 rets --> False
+2021-03-16 10:28:53,210 rets --> False
+2021-03-16 10:28:53,211 get_time_ex
+2021-03-16 10:28:53,335 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:53,811 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:53,814 get_time_ex -- >true
+2021-03-16 10:28:54,085 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:55,224 http://127.0.0.1:8082 "GET /sao-luu/danh-sach/NXGNPSV0378291E5997600 HTTP/1.1" 200 884
+2021-03-16 10:28:55,228 rets --> False
+2021-03-16 10:28:55,228 rets --> False
+2021-03-16 10:28:55,229 get_time_ex
+2021-03-16 10:28:55,542 Starting new HTTP connection (1): 127.0.0.1:8082
+2021-03-16 10:28:56,040 http://127.0.0.1:8082 "GET /ngay-het-han/NXGNPSV0378291E5997600 HTTP/1.1" 200 48
+2021-03-16 10:28:56,043 get_time_ex -- >true
+2021-03-16 10:28:56,259 Starting new HTTP connection (1): 127.0.0.1:8082

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore.Utils", "Netcore.Utils\Netcore.Utils\NetCore.Utils.csproj", "{9A6AFC93-C521-4EFB-9737-1C1C80394AA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferWorker.UI", "TransferWorker.UI\TransferWorker.UI.csproj", "{BFC5461B-3775-453C-89C3-0AC59A18B9FC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_ByteSave", "Setup_ByteSave\Setup_ByteSave.vdproj", "{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6AFC93-C521-4EFB-9737-1C1C80394AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6AFC93-C521-4EFB-9737-1C1C80394AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6AFC93-C521-4EFB-9737-1C1C80394AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6AFC93-C521-4EFB-9737-1C1C80394AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC5461B-3775-453C-89C3-0AC59A18B9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC5461B-3775-453C-89C3-0AC59A18B9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC5461B-3775-453C-89C3-0AC59A18B9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC5461B-3775-453C-89C3-0AC59A18B9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}.Debug|Any CPU.ActiveCfg = Debug
+		{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2495FD8C-5AC7-4924-ADFD-C4B6610AE863}
+	EndGlobalSection
+EndGlobal

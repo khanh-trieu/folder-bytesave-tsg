@@ -1,0 +1,10 @@
+2021-05-05 14:57:19.4948 INFO :	<InstallMT>d__29.MoveNext 
+	InstallMT 
+2021-05-05 14:58:51.7315 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-05-05 14:58:53.5897 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-05-05 14:59:00.3758 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-05-05 14:59:06.2574 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]

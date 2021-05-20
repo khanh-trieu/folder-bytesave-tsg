@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    private-api:
+        build: .
+        ports: 
+            - 9000:9000
+        environment: 
+            PORT: 9000
+

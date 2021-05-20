@@ -1,0 +1,954 @@
+021-03-27 15:06:05,016 Using proactor: IocpProactor
+2021-03-27 15:06:16,451 main_process
+2021-03-27 15:06:17,715 get_time_ex -- >False
+2021-03-27 15:06:17,717 rets --> False
+2021-03-27 15:06:17,722 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy?restype=REDACTED&comp=REDACTED'
+2021-03-27 15:06:17,722 Request method: 'GET'
+2021-03-27 15:06:17,722 Request headers:
+2021-03-27 15:06:17,722     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:17,722     'Accept': 'application/xml'
+2021-03-27 15:06:17,723     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:17,723     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:17,723     'x-ms-client-request-id': '4edbd324-8ed3-11eb-9125-005056c00008'
+2021-03-27 15:06:17,723     'Authorization': 'REDACTED'
+2021-03-27 15:06:17,723 No body was attached to the request
+2021-03-27 15:06:17,737 Starting new HTTPS connection (1): tsgblobtestbykhanh.blob.core.windows.net:443
+2021-03-27 15:06:18,192 https://tsgblobtestbykhanh.blob.core.windows.net:443 "GET /backupazcopy?restype=container&comp=list HTTP/1.1" 200 None
+2021-03-27 15:06:18,315 Response status: 200
+2021-03-27 15:06:18,316 Response headers:
+2021-03-27 15:06:18,316     'Transfer-Encoding': 'chunked'
+2021-03-27 15:06:18,316     'Content-Type': 'application/xml'
+2021-03-27 15:06:18,316     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:18,316     'x-ms-request-id': '216bef9b-201e-001e-6be0-2274d9000000'
+2021-03-27 15:06:18,317     'x-ms-client-request-id': '4edbd324-8ed3-11eb-9125-005056c00008'
+2021-03-27 15:06:18,317     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:18,317     'Date': 'Sat, 27 Mar 2021 08:06:17 GMT'
+2021-03-27 15:06:18,408 get_list_name_file_cloud
+2021-03-27 15:06:18,409 get_list_file_local:E:\Crack
+2021-03-27 15:06:26,571 upload_file_to_blob : E:\Crack\aWin10_1909_English_x32.isoCrack\aWin10_1909_English_x32.isobackupazcopyDefaultEndpointsProtocol=https;AccountName=tsgblobtestbykhanh;AccountKey=46BUwKMiWg+hJx9NSdB46dbL46RmkSLRWnEOkY8aXjASLBFIojsBchdLBdvJCW+2iH91riWgN76gr3ljCXZjdQ==;EndpointSuffix=core.windows.net
+2021-03-27 15:06:26,577 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:26,578 Request method: 'PUT'
+2021-03-27 15:06:26,578 Request headers:
+2021-03-27 15:06:26,578     'Content-Length': '4194304'
+2021-03-27 15:06:26,578     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:26,578     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:26,578     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:26,579     'Accept': 'application/xml'
+2021-03-27 15:06:26,579     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:26,579     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:26,579     'x-ms-client-request-id': '54232e8d-8ed3-11eb-84e7-005056c00008'
+2021-03-27 15:06:26,579     'Authorization': 'REDACTED'
+2021-03-27 15:06:26,579 A body is sent with the request
+2021-03-27 15:06:26,586 Starting new HTTPS connection (1): tsgblobtestbykhanh.blob.core.windows.net:443
+2021-03-27 15:06:28,990 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:28,991 Response status: 201
+2021-03-27 15:06:28,992 Response headers:
+2021-03-27 15:06:28,992     'Content-Length': '0'
+2021-03-27 15:06:28,992     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:28,993     'x-ms-request-id': 'ae75b362-f01e-0017-62e0-226e57000000'
+2021-03-27 15:06:28,993     'x-ms-client-request-id': '54232e8d-8ed3-11eb-84e7-005056c00008'
+2021-03-27 15:06:28,993     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:28,994     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:28,994     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:28,995     'Date': 'Sat, 27 Mar 2021 08:06:28 GMT'
+2021-03-27 15:06:29,033 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:29,033 Request method: 'PUT'
+2021-03-27 15:06:29,033 Request headers:
+2021-03-27 15:06:29,034     'Content-Length': '4194304'
+2021-03-27 15:06:29,034     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:29,034     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:29,034     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:29,035     'Accept': 'application/xml'
+2021-03-27 15:06:29,035     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:29,035     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:29,035     'x-ms-client-request-id': '5599d81b-8ed3-11eb-8985-005056c00008'
+2021-03-27 15:06:29,035     'Authorization': 'REDACTED'
+2021-03-27 15:06:29,035 A body is sent with the request
+2021-03-27 15:06:31,177 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNRFF4T1RRek1EUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:31,179 Response status: 201
+2021-03-27 15:06:31,179 Response headers:
+2021-03-27 15:06:31,180     'Content-Length': '0'
+2021-03-27 15:06:31,180     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:31,180     'x-ms-request-id': 'ae75bab7-f01e-0017-0ee0-226e57000000'
+2021-03-27 15:06:31,181     'x-ms-client-request-id': '5599d81b-8ed3-11eb-8985-005056c00008'
+2021-03-27 15:06:31,181     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:31,181     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:31,181     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:31,182     'Date': 'Sat, 27 Mar 2021 08:06:30 GMT'
+2021-03-27 15:06:31,190 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:31,190 Request method: 'PUT'
+2021-03-27 15:06:31,190 Request headers:
+2021-03-27 15:06:31,191     'Content-Length': '4194304'
+2021-03-27 15:06:31,191     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:31,191     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:31,192     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:31,192     'Accept': 'application/xml'
+2021-03-27 15:06:31,192     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:31,193     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:31,193     'x-ms-client-request-id': '56e31911-8ed3-11eb-86b3-005056c00008'
+2021-03-27 15:06:31,193     'Authorization': 'REDACTED'
+2021-03-27 15:06:31,194 A body is sent with the request
+2021-03-27 15:06:33,573 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNRGd6T0RnMk1EZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:33,575 Response status: 201
+2021-03-27 15:06:33,576 Response headers:
+2021-03-27 15:06:33,576     'Content-Length': '0'
+2021-03-27 15:06:33,577     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:33,577     'x-ms-request-id': 'ae75c218-f01e-0017-6be0-226e57000000'
+2021-03-27 15:06:33,577     'x-ms-client-request-id': '56e31911-8ed3-11eb-86b3-005056c00008'
+2021-03-27 15:06:33,578     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:33,578     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:33,579     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:33,579     'Date': 'Sat, 27 Mar 2021 08:06:32 GMT'
+2021-03-27 15:06:33,587 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:33,587 Request method: 'PUT'
+2021-03-27 15:06:33,588 Request headers:
+2021-03-27 15:06:33,588     'Content-Length': '4194304'
+2021-03-27 15:06:33,588     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:33,589     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:33,589     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:33,589     'Accept': 'application/xml'
+2021-03-27 15:06:33,590     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:33,590     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:33,590     'x-ms-client-request-id': '58509976-8ed3-11eb-81c2-005056c00008'
+2021-03-27 15:06:33,591     'Authorization': 'REDACTED'
+2021-03-27 15:06:33,591 A body is sent with the request
+2021-03-27 15:06:36,622 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNVEkxT0RJNU1USSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:36,625 Response status: 201
+2021-03-27 15:06:36,625 Response headers:
+2021-03-27 15:06:36,626     'Content-Length': '0'
+2021-03-27 15:06:36,626     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:36,628     'x-ms-request-id': 'ae75c9af-f01e-0017-0ce0-226e57000000'
+2021-03-27 15:06:36,628     'x-ms-client-request-id': '58509976-8ed3-11eb-81c2-005056c00008'
+2021-03-27 15:06:36,629     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:36,629     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:36,630     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:36,631     'Date': 'Sat, 27 Mar 2021 08:06:35 GMT'
+2021-03-27 15:06:36,644 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:36,644 Request method: 'PUT'
+2021-03-27 15:06:36,644 Request headers:
+2021-03-27 15:06:36,645     'Content-Length': '4194304'
+2021-03-27 15:06:36,645     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:36,645     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:36,646     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:36,647     'Accept': 'application/xml'
+2021-03-27 15:06:36,647     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:36,648     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:36,648     'x-ms-client-request-id': '5a234677-8ed3-11eb-a0f8-005056c00008'
+2021-03-27 15:06:36,649     'Authorization': 'REDACTED'
+2021-03-27 15:06:36,649 A body is sent with the request
+2021-03-27 15:06:41,232 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNVFkzTnpjeU1UWSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:41,233 Response status: 201
+2021-03-27 15:06:41,234 Response headers:
+2021-03-27 15:06:41,234     'Content-Length': '0'
+2021-03-27 15:06:41,234     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:41,234     'x-ms-request-id': 'ae75d2c0-f01e-0017-41e0-226e57000000'
+2021-03-27 15:06:41,235     'x-ms-client-request-id': '5a234677-8ed3-11eb-a0f8-005056c00008'
+2021-03-27 15:06:41,235     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:41,235     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:41,235     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:41,236     'Date': 'Sat, 27 Mar 2021 08:06:40 GMT'
+2021-03-27 15:06:41,242 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:41,242 Request method: 'PUT'
+2021-03-27 15:06:41,242 Request headers:
+2021-03-27 15:06:41,242     'Content-Length': '4194304'
+2021-03-27 15:06:41,243     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:41,243     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:41,243     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:41,243     'Accept': 'application/xml'
+2021-03-27 15:06:41,243     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:41,244     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:41,244     'x-ms-client-request-id': '5ce0ca1b-8ed3-11eb-b7f4-005056c00008'
+2021-03-27 15:06:41,244     'Authorization': 'REDACTED'
+2021-03-27 15:06:41,244 A body is sent with the request
+2021-03-27 15:06:44,566 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNakE1TnpFMU1qQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:44,567 Response status: 201
+2021-03-27 15:06:44,567 Response headers:
+2021-03-27 15:06:44,568     'Content-Length': '0'
+2021-03-27 15:06:44,568     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:44,568     'x-ms-request-id': 'ae75e0cc-f01e-0017-2ae0-226e57000000'
+2021-03-27 15:06:44,568     'x-ms-client-request-id': '5ce0ca1b-8ed3-11eb-b7f4-005056c00008'
+2021-03-27 15:06:44,568     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:44,568     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:44,569     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:44,569     'Date': 'Sat, 27 Mar 2021 08:06:43 GMT'
+2021-03-27 15:06:44,575 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:44,575 Request method: 'PUT'
+2021-03-27 15:06:44,575 Request headers:
+2021-03-27 15:06:44,576     'Content-Length': '4194304'
+2021-03-27 15:06:44,576     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:44,576     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:44,576     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:44,576     'Accept': 'application/xml'
+2021-03-27 15:06:44,576     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:44,577     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:44,577     'x-ms-client-request-id': '5edd7039-8ed3-11eb-a6b1-005056c00008'
+2021-03-27 15:06:44,577     'Authorization': 'REDACTED'
+2021-03-27 15:06:44,577 A body is sent with the request
+2021-03-27 15:06:47,584 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNalV4TmpVNE1qUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:47,592 Response status: 201
+2021-03-27 15:06:47,593 Response headers:
+2021-03-27 15:06:47,594     'Content-Length': '0'
+2021-03-27 15:06:47,595     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:47,595     'x-ms-request-id': 'ae75e940-f01e-0017-0ce0-226e57000000'
+2021-03-27 15:06:47,596     'x-ms-client-request-id': '5edd7039-8ed3-11eb-a6b1-005056c00008'
+2021-03-27 15:06:47,596     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:47,597     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:47,597     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:47,598     'Date': 'Sat, 27 Mar 2021 08:06:46 GMT'
+2021-03-27 15:06:47,609 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:47,609 Request method: 'PUT'
+2021-03-27 15:06:47,609 Request headers:
+2021-03-27 15:06:47,610     'Content-Length': '4194304'
+2021-03-27 15:06:47,610     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:47,611     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:47,611     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:47,613     'Accept': 'application/xml'
+2021-03-27 15:06:47,613     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:47,613     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:47,614     'x-ms-client-request-id': '60ac13f3-8ed3-11eb-ab0e-005056c00008'
+2021-03-27 15:06:47,614     'Authorization': 'REDACTED'
+2021-03-27 15:06:47,614 A body is sent with the request
+2021-03-27 15:06:50,726 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNamt6TmpBeE1qZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:50,728 Response status: 201
+2021-03-27 15:06:50,729 Response headers:
+2021-03-27 15:06:50,729     'Content-Length': '0'
+2021-03-27 15:06:50,729     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:50,730     'x-ms-request-id': 'ae75f141-f01e-0017-2ce0-226e57000000'
+2021-03-27 15:06:50,730     'x-ms-client-request-id': '60ac13f3-8ed3-11eb-ab0e-005056c00008'
+2021-03-27 15:06:50,730     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:50,730     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:50,730     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:50,730     'Date': 'Sat, 27 Mar 2021 08:06:50 GMT'
+2021-03-27 15:06:50,736 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:50,736 Request method: 'PUT'
+2021-03-27 15:06:50,736 Request headers:
+2021-03-27 15:06:50,737     'Content-Length': '4194304'
+2021-03-27 15:06:50,737     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:50,737     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:50,737     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:50,738     'Accept': 'application/xml'
+2021-03-27 15:06:50,738     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:50,738     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:50,738     'x-ms-client-request-id': '6289756f-8ed3-11eb-9d90-005056c00008'
+2021-03-27 15:06:50,738     'Authorization': 'REDACTED'
+2021-03-27 15:06:50,739 A body is sent with the request
+2021-03-27 15:06:55,055 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNek0xTlRRME16SSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:55,057 Response status: 201
+2021-03-27 15:06:55,057 Response headers:
+2021-03-27 15:06:55,058     'Content-Length': '0'
+2021-03-27 15:06:55,058     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:55,058     'x-ms-request-id': 'ae75fa8c-f01e-0017-07e0-226e57000000'
+2021-03-27 15:06:55,059     'x-ms-client-request-id': '6289756f-8ed3-11eb-9d90-005056c00008'
+2021-03-27 15:06:55,059     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:55,059     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:55,060     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:55,060     'Date': 'Sat, 27 Mar 2021 08:06:54 GMT'
+2021-03-27 15:06:55,065 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:55,066 Request method: 'PUT'
+2021-03-27 15:06:55,066 Request headers:
+2021-03-27 15:06:55,066     'Content-Length': '4194304'
+2021-03-27 15:06:55,066     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:55,067     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:55,067     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:55,067     'Accept': 'application/xml'
+2021-03-27 15:06:55,067     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:55,067     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:55,067     'x-ms-client-request-id': '651e488c-8ed3-11eb-ae6e-005056c00008'
+2021-03-27 15:06:55,068     'Authorization': 'REDACTED'
+2021-03-27 15:06:55,068 A body is sent with the request
+2021-03-27 15:06:59,684 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdNemMzTkRnM016WSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:06:59,685 Response status: 201
+2021-03-27 15:06:59,686 Response headers:
+2021-03-27 15:06:59,686     'Content-Length': '0'
+2021-03-27 15:06:59,686     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:06:59,686     'x-ms-request-id': 'ae76062b-f01e-0017-73e0-226e57000000'
+2021-03-27 15:06:59,686     'x-ms-client-request-id': '651e488c-8ed3-11eb-ae6e-005056c00008'
+2021-03-27 15:06:59,687     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:59,687     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:06:59,687     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:06:59,687     'Date': 'Sat, 27 Mar 2021 08:06:58 GMT'
+2021-03-27 15:06:59,692 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:06:59,693 Request method: 'PUT'
+2021-03-27 15:06:59,693 Request headers:
+2021-03-27 15:06:59,693     'Content-Length': '4194304'
+2021-03-27 15:06:59,694     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:06:59,694     'x-ms-version': 'REDACTED'
+2021-03-27 15:06:59,694     'Content-Type': 'application/octet-stream'
+2021-03-27 15:06:59,695     'Accept': 'application/xml'
+2021-03-27 15:06:59,695     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:06:59,695     'x-ms-date': 'REDACTED'
+2021-03-27 15:06:59,695     'x-ms-client-request-id': '67e04be3-8ed3-11eb-91e1-005056c00008'
+2021-03-27 15:06:59,695     'Authorization': 'REDACTED'
+2021-03-27 15:06:59,696 A body is sent with the request
+2021-03-27 15:07:05,479 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOREU1TkRNd05EQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:05,480 Response status: 201
+2021-03-27 15:07:05,480 Response headers:
+2021-03-27 15:07:05,480     'Content-Length': '0'
+2021-03-27 15:07:05,481     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:05,481     'x-ms-request-id': 'ae7614b8-f01e-0017-2ee0-226e57000000'
+2021-03-27 15:07:05,481     'x-ms-client-request-id': '67e04be3-8ed3-11eb-91e1-005056c00008'
+2021-03-27 15:07:05,481     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:05,481     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:05,481     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:05,482     'Date': 'Sat, 27 Mar 2021 08:07:04 GMT'
+2021-03-27 15:07:05,486 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:05,486 Request method: 'PUT'
+2021-03-27 15:07:05,487 Request headers:
+2021-03-27 15:07:05,487     'Content-Length': '4194304'
+2021-03-27 15:07:05,487     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:05,487     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:05,487     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:05,487     'Accept': 'application/xml'
+2021-03-27 15:07:05,488     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:05,488     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:05,488     'x-ms-client-request-id': '6b5443a4-8ed3-11eb-91af-005056c00008'
+2021-03-27 15:07:05,488     'Authorization': 'REDACTED'
+2021-03-27 15:07:05,488 A body is sent with the request
+2021-03-27 15:07:12,978 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdORFl4TXpjek5EUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:12,979 Response status: 201
+2021-03-27 15:07:12,980 Response headers:
+2021-03-27 15:07:12,980     'Content-Length': '0'
+2021-03-27 15:07:12,980     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:12,980     'x-ms-request-id': 'ae7625d9-f01e-0017-25e0-226e57000000'
+2021-03-27 15:07:12,981     'x-ms-client-request-id': '6b5443a4-8ed3-11eb-91af-005056c00008'
+2021-03-27 15:07:12,981     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:12,981     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:12,981     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:12,982     'Date': 'Sat, 27 Mar 2021 08:07:12 GMT'
+2021-03-27 15:07:12,988 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:12,989 Request method: 'PUT'
+2021-03-27 15:07:12,989 Request headers:
+2021-03-27 15:07:12,989     'Content-Length': '4194304'
+2021-03-27 15:07:12,989     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:12,990     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:12,990     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:12,990     'Accept': 'application/xml'
+2021-03-27 15:07:12,990     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:12,990     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:12,991     'x-ms-client-request-id': '6fcd1763-8ed3-11eb-bac8-005056c00008'
+2021-03-27 15:07:12,991     'Authorization': 'REDACTED'
+2021-03-27 15:07:12,991 A body is sent with the request
+2021-03-27 15:07:18,091 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOVEF6TXpFMk5EZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:18,092 Response status: 201
+2021-03-27 15:07:18,092 Response headers:
+2021-03-27 15:07:18,093     'Content-Length': '0'
+2021-03-27 15:07:18,093     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:18,093     'x-ms-request-id': 'ae763b53-f01e-0017-29e0-226e57000000'
+2021-03-27 15:07:18,093     'x-ms-client-request-id': '6fcd1763-8ed3-11eb-bac8-005056c00008'
+2021-03-27 15:07:18,094     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:18,094     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:18,094     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:18,094     'Date': 'Sat, 27 Mar 2021 08:07:17 GMT'
+2021-03-27 15:07:18,100 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:18,101 Request method: 'PUT'
+2021-03-27 15:07:18,101 Request headers:
+2021-03-27 15:07:18,102     'Content-Length': '4194304'
+2021-03-27 15:07:18,102     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:18,102     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:18,103     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:18,103     'Accept': 'application/xml'
+2021-03-27 15:07:18,103     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:18,103     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:18,103     'x-ms-client-request-id': '72d9000e-8ed3-11eb-8d97-005056c00008'
+2021-03-27 15:07:18,104     'Authorization': 'REDACTED'
+2021-03-27 15:07:18,104 A body is sent with the request
+2021-03-27 15:07:22,224 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOVFExTWpVNU5USSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:22,225 Response status: 201
+2021-03-27 15:07:22,225 Response headers:
+2021-03-27 15:07:22,226     'Content-Length': '0'
+2021-03-27 15:07:22,226     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:22,226     'x-ms-request-id': 'ae7648c6-f01e-0017-28e0-226e57000000'
+2021-03-27 15:07:22,226     'x-ms-client-request-id': '72d9000e-8ed3-11eb-8d97-005056c00008'
+2021-03-27 15:07:22,226     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:22,226     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:22,227     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:22,227     'Date': 'Sat, 27 Mar 2021 08:07:21 GMT'
+2021-03-27 15:07:22,231 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:22,231 Request method: 'PUT'
+2021-03-27 15:07:22,232 Request headers:
+2021-03-27 15:07:22,232     'Content-Length': '4194304'
+2021-03-27 15:07:22,232     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:22,232     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:22,232     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:22,232     'Accept': 'application/xml'
+2021-03-27 15:07:22,233     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:22,233     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:22,233     'x-ms-client-request-id': '754f5a3a-8ed3-11eb-aed2-005056c00008'
+2021-03-27 15:07:22,233     'Authorization': 'REDACTED'
+2021-03-27 15:07:22,234 A body is sent with the request
+2021-03-27 15:07:26,349 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOVGczTWpBeU5UWSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:26,350 Response status: 201
+2021-03-27 15:07:26,350 Response headers:
+2021-03-27 15:07:26,351     'Content-Length': '0'
+2021-03-27 15:07:26,351     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:26,352     'x-ms-request-id': 'ae76544d-f01e-0017-35e0-226e57000000'
+2021-03-27 15:07:26,352     'x-ms-client-request-id': '754f5a3a-8ed3-11eb-aed2-005056c00008'
+2021-03-27 15:07:26,352     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:26,352     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:26,353     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:26,353     'Date': 'Sat, 27 Mar 2021 08:07:25 GMT'
+2021-03-27 15:07:26,358 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:26,358 Request method: 'PUT'
+2021-03-27 15:07:26,358 Request headers:
+2021-03-27 15:07:26,358     'Content-Length': '4194304'
+2021-03-27 15:07:26,358     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:26,359     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:26,359     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:26,359     'Accept': 'application/xml'
+2021-03-27 15:07:26,359     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:26,359     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:26,360     'x-ms-client-request-id': '77c4f952-8ed3-11eb-93bc-005056c00008'
+2021-03-27 15:07:26,360     'Authorization': 'REDACTED'
+2021-03-27 15:07:26,360 A body is sent with the request
+2021-03-27 15:07:30,956 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOakk1TVRRMU5qQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:30,957 Response status: 201
+2021-03-27 15:07:30,958 Response headers:
+2021-03-27 15:07:30,958     'Content-Length': '0'
+2021-03-27 15:07:30,958     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:30,958     'x-ms-request-id': 'ae765e9e-f01e-0017-40e0-226e57000000'
+2021-03-27 15:07:30,959     'x-ms-client-request-id': '77c4f952-8ed3-11eb-93bc-005056c00008'
+2021-03-27 15:07:30,959     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:30,959     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:30,959     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:30,959     'Date': 'Sat, 27 Mar 2021 08:07:30 GMT'
+2021-03-27 15:07:30,964 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:30,964 Request method: 'PUT'
+2021-03-27 15:07:30,964 Request headers:
+2021-03-27 15:07:30,965     'Content-Length': '4194304'
+2021-03-27 15:07:30,965     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:30,965     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:30,965     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:30,965     'Accept': 'application/xml'
+2021-03-27 15:07:30,965     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:30,966     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:30,966     'x-ms-client-request-id': '7a83d773-8ed3-11eb-bf9f-005056c00008'
+2021-03-27 15:07:30,966     'Authorization': 'REDACTED'
+2021-03-27 15:07:30,966 A body is sent with the request
+2021-03-27 15:07:33,726 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOamN4TURnNE5qUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:33,727 Response status: 201
+2021-03-27 15:07:33,728 Response headers:
+2021-03-27 15:07:33,728     'Content-Length': '0'
+2021-03-27 15:07:33,729     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:33,729     'x-ms-request-id': 'ae766b8c-f01e-0017-5be0-226e57000000'
+2021-03-27 15:07:33,729     'x-ms-client-request-id': '7a83d773-8ed3-11eb-bf9f-005056c00008'
+2021-03-27 15:07:33,730     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:33,730     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:33,730     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:33,731     'Date': 'Sat, 27 Mar 2021 08:07:32 GMT'
+2021-03-27 15:07:33,739 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:33,740 Request method: 'PUT'
+2021-03-27 15:07:33,740 Request headers:
+2021-03-27 15:07:33,741     'Content-Length': '4194304'
+2021-03-27 15:07:33,741     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:33,742     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:33,742     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:33,742     'Accept': 'application/xml'
+2021-03-27 15:07:33,743     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:33,743     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:33,744     'x-ms-client-request-id': '7c2b4a5f-8ed3-11eb-9a72-005056c00008'
+2021-03-27 15:07:33,744     'Authorization': 'REDACTED'
+2021-03-27 15:07:33,744 A body is sent with the request
+2021-03-27 15:07:38,231 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOekV6TURNeE5qZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:38,234 Response status: 201
+2021-03-27 15:07:38,234 Response headers:
+2021-03-27 15:07:38,234     'Content-Length': '0'
+2021-03-27 15:07:38,234     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:38,235     'x-ms-request-id': 'ae7672a5-f01e-0017-0de0-226e57000000'
+2021-03-27 15:07:38,235     'x-ms-client-request-id': '7c2b4a5f-8ed3-11eb-9a72-005056c00008'
+2021-03-27 15:07:38,235     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:38,235     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:38,236     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:38,236     'Date': 'Sat, 27 Mar 2021 08:07:37 GMT'
+2021-03-27 15:07:38,245 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:38,245 Request method: 'PUT'
+2021-03-27 15:07:38,246 Request headers:
+2021-03-27 15:07:38,246     'Content-Length': '4194304'
+2021-03-27 15:07:38,247     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:38,247     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:38,248     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:38,248     'Accept': 'application/xml'
+2021-03-27 15:07:38,248     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:38,249     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:38,249     'x-ms-client-request-id': '7edab258-8ed3-11eb-909e-005056c00008'
+2021-03-27 15:07:38,250     'Authorization': 'REDACTED'
+2021-03-27 15:07:38,250 A body is sent with the request
+2021-03-27 15:07:42,935 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOelUwT1RjME56SSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:42,937 Response status: 201
+2021-03-27 15:07:42,937 Response headers:
+2021-03-27 15:07:42,937     'Content-Length': '0'
+2021-03-27 15:07:42,938     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:42,938     'x-ms-request-id': 'ae76803f-f01e-0017-67e0-226e57000000'
+2021-03-27 15:07:42,938     'x-ms-client-request-id': '7edab258-8ed3-11eb-909e-005056c00008'
+2021-03-27 15:07:42,938     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:42,939     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:42,939     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:42,939     'Date': 'Sat, 27 Mar 2021 08:07:42 GMT'
+2021-03-27 15:07:42,946 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:42,946 Request method: 'PUT'
+2021-03-27 15:07:42,946 Request headers:
+2021-03-27 15:07:42,946     'Content-Length': '4194304'
+2021-03-27 15:07:42,947     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:42,947     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:42,947     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:42,947     'Accept': 'application/xml'
+2021-03-27 15:07:42,948     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:42,948     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:42,948     'x-ms-client-request-id': '81a82722-8ed3-11eb-8ffc-005056c00008'
+2021-03-27 15:07:42,948     'Authorization': 'REDACTED'
+2021-03-27 15:07:42,948 A body is sent with the request
+2021-03-27 15:07:47,579 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdOemsyT1RFM056WSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:47,580 Response status: 201
+2021-03-27 15:07:47,581 Response headers:
+2021-03-27 15:07:47,581     'Content-Length': '0'
+2021-03-27 15:07:47,581     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:47,581     'x-ms-request-id': 'ae768f17-f01e-0017-21e0-226e57000000'
+2021-03-27 15:07:47,581     'x-ms-client-request-id': '81a82722-8ed3-11eb-8ffc-005056c00008'
+2021-03-27 15:07:47,582     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:47,582     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:47,582     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:47,582     'Date': 'Sat, 27 Mar 2021 08:07:46 GMT'
+2021-03-27 15:07:47,588 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:47,588 Request method: 'PUT'
+2021-03-27 15:07:47,588 Request headers:
+2021-03-27 15:07:47,588     'Content-Length': '4194304'
+2021-03-27 15:07:47,589     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:47,589     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:47,589     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:47,589     'Accept': 'application/xml'
+2021-03-27 15:07:47,589     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:47,589     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:47,590     'x-ms-client-request-id': '846c6d0d-8ed3-11eb-944d-005056c00008'
+2021-03-27 15:07:47,590     'Authorization': 'REDACTED'
+2021-03-27 15:07:47,590 A body is sent with the request
+2021-03-27 15:07:50,832 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdPRE00T0RZd09EQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:50,833 Response status: 201
+2021-03-27 15:07:50,834 Response headers:
+2021-03-27 15:07:50,834     'Content-Length': '0'
+2021-03-27 15:07:50,834     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:50,834     'x-ms-request-id': 'ae769db1-f01e-0017-35e0-226e57000000'
+2021-03-27 15:07:50,834     'x-ms-client-request-id': '846c6d0d-8ed3-11eb-944d-005056c00008'
+2021-03-27 15:07:50,835     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:50,835     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:50,835     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:50,835     'Date': 'Sat, 27 Mar 2021 08:07:50 GMT'
+2021-03-27 15:07:50,839 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:50,840 Request method: 'PUT'
+2021-03-27 15:07:50,840 Request headers:
+2021-03-27 15:07:50,840     'Content-Length': '4194304'
+2021-03-27 15:07:50,840     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:50,840     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:50,841     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:50,841     'Accept': 'application/xml'
+2021-03-27 15:07:50,841     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:50,841     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:50,841     'x-ms-client-request-id': '865ca876-8ed3-11eb-86b4-005056c00008'
+2021-03-27 15:07:50,841     'Authorization': 'REDACTED'
+2021-03-27 15:07:50,841 A body is sent with the request
+2021-03-27 15:07:53,616 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdPRGd3T0RBek9EUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:53,618 Response status: 201
+2021-03-27 15:07:53,618 Response headers:
+2021-03-27 15:07:53,619     'Content-Length': '0'
+2021-03-27 15:07:53,619     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:53,619     'x-ms-request-id': 'ae76a938-f01e-0017-05e0-226e57000000'
+2021-03-27 15:07:53,620     'x-ms-client-request-id': '865ca876-8ed3-11eb-86b4-005056c00008'
+2021-03-27 15:07:53,620     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:53,620     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:53,620     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:53,621     'Date': 'Sat, 27 Mar 2021 08:07:52 GMT'
+2021-03-27 15:07:53,628 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:53,628 Request method: 'PUT'
+2021-03-27 15:07:53,629 Request headers:
+2021-03-27 15:07:53,629     'Content-Length': '4194304'
+2021-03-27 15:07:53,629     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:53,630     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:53,630     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:53,631     'Accept': 'application/xml'
+2021-03-27 15:07:53,631     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:53,631     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:53,632     'x-ms-client-request-id': '8805fa5c-8ed3-11eb-8b5f-005056c00008'
+2021-03-27 15:07:53,632     'Authorization': 'REDACTED'
+2021-03-27 15:07:53,632 A body is sent with the request
+2021-03-27 15:07:56,252 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdPVEl5TnpRMk9EZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:56,253 Response status: 201
+2021-03-27 15:07:56,254 Response headers:
+2021-03-27 15:07:56,254     'Content-Length': '0'
+2021-03-27 15:07:56,254     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:56,254     'x-ms-request-id': 'ae76b429-f01e-0017-54e0-226e57000000'
+2021-03-27 15:07:56,254     'x-ms-client-request-id': '8805fa5c-8ed3-11eb-8b5f-005056c00008'
+2021-03-27 15:07:56,254     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:56,255     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:56,255     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:56,255     'Date': 'Sat, 27 Mar 2021 08:07:55 GMT'
+2021-03-27 15:07:56,260 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:56,261 Request method: 'PUT'
+2021-03-27 15:07:56,261 Request headers:
+2021-03-27 15:07:56,262     'Content-Length': '4194304'
+2021-03-27 15:07:56,262     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:56,262     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:56,262     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:56,262     'Accept': 'application/xml'
+2021-03-27 15:07:56,263     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:56,263     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:56,263     'x-ms-client-request-id': '8997c6c1-8ed3-11eb-a094-005056c00008'
+2021-03-27 15:07:56,264     'Authorization': 'REDACTED'
+2021-03-27 15:07:56,264 A body is sent with the request
+2021-03-27 15:07:58,670 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXdPVFkwTmpnNU9USSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:07:58,671 Response status: 201
+2021-03-27 15:07:58,672 Response headers:
+2021-03-27 15:07:58,672     'Content-Length': '0'
+2021-03-27 15:07:58,672     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:07:58,672     'x-ms-request-id': 'ae76be41-f01e-0017-3ce0-226e57000000'
+2021-03-27 15:07:58,672     'x-ms-client-request-id': '8997c6c1-8ed3-11eb-a094-005056c00008'
+2021-03-27 15:07:58,673     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:58,673     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:07:58,673     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:07:58,673     'Date': 'Sat, 27 Mar 2021 08:07:57 GMT'
+2021-03-27 15:07:58,678 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:07:58,679 Request method: 'PUT'
+2021-03-27 15:07:58,679 Request headers:
+2021-03-27 15:07:58,679     'Content-Length': '4194304'
+2021-03-27 15:07:58,680     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:07:58,680     'x-ms-version': 'REDACTED'
+2021-03-27 15:07:58,680     'Content-Type': 'application/octet-stream'
+2021-03-27 15:07:58,680     'Accept': 'application/xml'
+2021-03-27 15:07:58,680     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:07:58,681     'x-ms-date': 'REDACTED'
+2021-03-27 15:07:58,681     'x-ms-client-request-id': '8b08bbc2-8ed3-11eb-864b-005056c00008'
+2021-03-27 15:07:58,681     'Authorization': 'REDACTED'
+2021-03-27 15:07:58,682 A body is sent with the request
+2021-03-27 15:08:01,278 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNREEyTmpNeU9UWSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:01,279 Response status: 201
+2021-03-27 15:08:01,279 Response headers:
+2021-03-27 15:08:01,280     'Content-Length': '0'
+2021-03-27 15:08:01,282     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:01,283     'x-ms-request-id': 'ae76c68a-f01e-0017-29e0-226e57000000'
+2021-03-27 15:08:01,283     'x-ms-client-request-id': '8b08bbc2-8ed3-11eb-864b-005056c00008'
+2021-03-27 15:08:01,284     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:01,284     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:01,284     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:01,285     'Date': 'Sat, 27 Mar 2021 08:08:00 GMT'
+2021-03-27 15:08:01,292 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:01,292 Request method: 'PUT'
+2021-03-27 15:08:01,293 Request headers:
+2021-03-27 15:08:01,293     'Content-Length': '4194304'
+2021-03-27 15:08:01,293     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:01,294     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:01,294     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:01,294     'Accept': 'application/xml'
+2021-03-27 15:08:01,295     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:01,295     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:01,295     'x-ms-client-request-id': '8c977409-8ed3-11eb-8c66-005056c00008'
+2021-03-27 15:08:01,295     'Authorization': 'REDACTED'
+2021-03-27 15:08:01,296 A body is sent with the request
+2021-03-27 15:08:05,182 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNRFE0TlRjMk1EQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:05,185 Response status: 201
+2021-03-27 15:08:05,185 Response headers:
+2021-03-27 15:08:05,186     'Content-Length': '0'
+2021-03-27 15:08:05,186     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:05,187     'x-ms-request-id': 'ae76d068-f01e-0017-1be0-226e57000000'
+2021-03-27 15:08:05,187     'x-ms-client-request-id': '8c977409-8ed3-11eb-8c66-005056c00008'
+2021-03-27 15:08:05,188     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:05,188     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:05,189     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:05,189     'Date': 'Sat, 27 Mar 2021 08:08:04 GMT'
+2021-03-27 15:08:05,199 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:05,200 Request method: 'PUT'
+2021-03-27 15:08:05,200 Request headers:
+2021-03-27 15:08:05,200     'Content-Length': '4194304'
+2021-03-27 15:08:05,200     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:05,201     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:05,201     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:05,201     'Accept': 'application/xml'
+2021-03-27 15:08:05,201     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:05,202     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:05,202     'x-ms-client-request-id': '8eebb9b5-8ed3-11eb-a248-005056c00008'
+2021-03-27 15:08:05,202     'Authorization': 'REDACTED'
+2021-03-27 15:08:05,202 A body is sent with the request
+2021-03-27 15:08:08,867 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNRGt3TlRFNU1EUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:08,870 Response status: 201
+2021-03-27 15:08:08,871 Response headers:
+2021-03-27 15:08:08,871     'Content-Length': '0'
+2021-03-27 15:08:08,872     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:08,872     'x-ms-request-id': 'ae76dd8c-f01e-0017-79e0-226e57000000'
+2021-03-27 15:08:08,873     'x-ms-client-request-id': '8eebb9b5-8ed3-11eb-a248-005056c00008'
+2021-03-27 15:08:08,873     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:08,874     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:08,874     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:08,875     'Date': 'Sat, 27 Mar 2021 08:08:08 GMT'
+2021-03-27 15:08:08,885 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:08,886 Request method: 'PUT'
+2021-03-27 15:08:08,886 Request headers:
+2021-03-27 15:08:08,886     'Content-Length': '4194304'
+2021-03-27 15:08:08,887     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:08,887     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:08,887     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:08,888     'Accept': 'application/xml'
+2021-03-27 15:08:08,888     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:08,888     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:08,888     'x-ms-client-request-id': '911e2258-8ed3-11eb-b811-005056c00008'
+2021-03-27 15:08:08,889     'Authorization': 'REDACTED'
+2021-03-27 15:08:08,889 A body is sent with the request
+2021-03-27 15:08:13,460 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNVE15TkRZeU1EZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:13,462 Response status: 201
+2021-03-27 15:08:13,462 Response headers:
+2021-03-27 15:08:13,462     'Content-Length': '0'
+2021-03-27 15:08:13,462     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:13,463     'x-ms-request-id': 'ae76eb33-f01e-0017-73e0-226e57000000'
+2021-03-27 15:08:13,463     'x-ms-client-request-id': '911e2258-8ed3-11eb-b811-005056c00008'
+2021-03-27 15:08:13,463     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:13,463     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:13,463     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:13,463     'Date': 'Sat, 27 Mar 2021 08:08:12 GMT'
+2021-03-27 15:08:13,470 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:13,471 Request method: 'PUT'
+2021-03-27 15:08:13,471 Request headers:
+2021-03-27 15:08:13,471     'Content-Length': '4194304'
+2021-03-27 15:08:13,471     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:13,471     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:13,472     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:13,472     'Accept': 'application/xml'
+2021-03-27 15:08:13,472     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:13,472     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:13,472     'x-ms-client-request-id': '93d9e827-8ed3-11eb-b84c-005056c00008'
+2021-03-27 15:08:13,472     'Authorization': 'REDACTED'
+2021-03-27 15:08:13,473 A body is sent with the request
+2021-03-27 15:08:16,226 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNVGMwTkRBMU1USSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:16,227 Response status: 201
+2021-03-27 15:08:16,228 Response headers:
+2021-03-27 15:08:16,228     'Content-Length': '0'
+2021-03-27 15:08:16,229     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:16,229     'x-ms-request-id': 'ae76fbac-f01e-0017-51e0-226e57000000'
+2021-03-27 15:08:16,230     'x-ms-client-request-id': '93d9e827-8ed3-11eb-b84c-005056c00008'
+2021-03-27 15:08:16,230     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:16,231     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:16,231     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:16,232     'Date': 'Sat, 27 Mar 2021 08:08:15 GMT'
+2021-03-27 15:08:16,245 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:16,245 Request method: 'PUT'
+2021-03-27 15:08:16,246 Request headers:
+2021-03-27 15:08:16,246     'Content-Length': '4194304'
+2021-03-27 15:08:16,247     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:16,247     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:16,248     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:16,248     'Accept': 'application/xml'
+2021-03-27 15:08:16,248     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:16,249     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:16,249     'x-ms-client-request-id': '95810587-8ed3-11eb-89f3-005056c00008'
+2021-03-27 15:08:16,249     'Authorization': 'REDACTED'
+2021-03-27 15:08:16,250 A body is sent with the request
+2021-03-27 15:08:19,013 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNakUyTXpRNE1UWSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:19,014 Response status: 201
+2021-03-27 15:08:19,015 Response headers:
+2021-03-27 15:08:19,016     'Content-Length': '0'
+2021-03-27 15:08:19,016     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:19,017     'x-ms-request-id': 'ae7705e7-f01e-0017-52e0-226e57000000'
+2021-03-27 15:08:19,017     'x-ms-client-request-id': '95810587-8ed3-11eb-89f3-005056c00008'
+2021-03-27 15:08:19,017     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:19,018     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:19,018     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:19,019     'Date': 'Sat, 27 Mar 2021 08:08:18 GMT'
+2021-03-27 15:08:19,028 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:19,028 Request method: 'PUT'
+2021-03-27 15:08:19,028 Request headers:
+2021-03-27 15:08:19,029     'Content-Length': '4194304'
+2021-03-27 15:08:19,029     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:19,029     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:19,029     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:19,030     'Accept': 'application/xml'
+2021-03-27 15:08:19,030     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:19,030     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:19,030     'x-ms-client-request-id': '9729c500-8ed3-11eb-9e3d-005056c00008'
+2021-03-27 15:08:19,030     'Authorization': 'REDACTED'
+2021-03-27 15:08:19,031 A body is sent with the request
+2021-03-27 15:08:21,539 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNalU0TWpreE1qQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:21,540 Response status: 201
+2021-03-27 15:08:21,541 Response headers:
+2021-03-27 15:08:21,541     'Content-Length': '0'
+2021-03-27 15:08:21,541     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:21,542     'x-ms-request-id': 'ae770f12-f01e-0017-60e0-226e57000000'
+2021-03-27 15:08:21,542     'x-ms-client-request-id': '9729c500-8ed3-11eb-9e3d-005056c00008'
+2021-03-27 15:08:21,542     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:21,543     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:21,543     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:21,543     'Date': 'Sat, 27 Mar 2021 08:08:20 GMT'
+2021-03-27 15:08:21,550 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:21,550 Request method: 'PUT'
+2021-03-27 15:08:21,550 Request headers:
+2021-03-27 15:08:21,551     'Content-Length': '4194304'
+2021-03-27 15:08:21,551     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:21,551     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:21,551     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:21,552     'Accept': 'application/xml'
+2021-03-27 15:08:21,552     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:21,552     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:21,553     'x-ms-client-request-id': '98aab23c-8ed3-11eb-beb2-005056c00008'
+2021-03-27 15:08:21,554     'Authorization': 'REDACTED'
+2021-03-27 15:08:21,557 A body is sent with the request
+2021-03-27 15:08:24,453 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNekF3TWpNME1qUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:24,459 Response status: 201
+2021-03-27 15:08:24,460 Response headers:
+2021-03-27 15:08:24,460     'Content-Length': '0'
+2021-03-27 15:08:24,461     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:24,461     'x-ms-request-id': 'ae771724-f01e-0017-19e0-226e57000000'
+2021-03-27 15:08:24,462     'x-ms-client-request-id': '98aab23c-8ed3-11eb-beb2-005056c00008'
+2021-03-27 15:08:24,462     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:24,462     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:24,463     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:24,463     'Date': 'Sat, 27 Mar 2021 08:08:23 GMT'
+2021-03-27 15:08:24,470 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:24,471 Request method: 'PUT'
+2021-03-27 15:08:24,471 Request headers:
+2021-03-27 15:08:24,473     'Content-Length': '4194304'
+2021-03-27 15:08:24,474     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:24,475     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:24,475     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:24,475     'Accept': 'application/xml'
+2021-03-27 15:08:24,476     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:24,476     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:24,476     'x-ms-client-request-id': '9a683ba1-8ed3-11eb-8789-005056c00008'
+2021-03-27 15:08:24,476     'Authorization': 'REDACTED'
+2021-03-27 15:08:24,476 A body is sent with the request
+2021-03-27 15:08:27,714 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNelF5TVRjM01qZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:27,715 Response status: 201
+2021-03-27 15:08:27,715 Response headers:
+2021-03-27 15:08:27,716     'Content-Length': '0'
+2021-03-27 15:08:27,716     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:27,716     'x-ms-request-id': 'ae772097-f01e-0017-3ce0-226e57000000'
+2021-03-27 15:08:27,716     'x-ms-client-request-id': '9a683ba1-8ed3-11eb-8789-005056c00008'
+2021-03-27 15:08:27,717     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:27,717     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:27,717     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:27,717     'Date': 'Sat, 27 Mar 2021 08:08:26 GMT'
+2021-03-27 15:08:27,724 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:27,725 Request method: 'PUT'
+2021-03-27 15:08:27,725 Request headers:
+2021-03-27 15:08:27,725     'Content-Length': '4194304'
+2021-03-27 15:08:27,726     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:27,726     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:27,726     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:27,727     'Accept': 'application/xml'
+2021-03-27 15:08:27,727     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:27,728     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:27,728     'x-ms-client-request-id': '9c58a6a3-8ed3-11eb-82da-005056c00008'
+2021-03-27 15:08:27,728     'Authorization': 'REDACTED'
+2021-03-27 15:08:27,729 A body is sent with the request
+2021-03-27 15:08:31,200 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhNemcwTVRJd016SSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:31,202 Response status: 201
+2021-03-27 15:08:31,202 Response headers:
+2021-03-27 15:08:31,202     'Content-Length': '0'
+2021-03-27 15:08:31,202     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:31,203     'x-ms-request-id': 'ae772c19-f01e-0017-44e0-226e57000000'
+2021-03-27 15:08:31,203     'x-ms-client-request-id': '9c58a6a3-8ed3-11eb-82da-005056c00008'
+2021-03-27 15:08:31,203     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:31,203     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:31,203     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:31,203     'Date': 'Sat, 27 Mar 2021 08:08:30 GMT'
+2021-03-27 15:08:31,212 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:31,212 Request method: 'PUT'
+2021-03-27 15:08:31,213 Request headers:
+2021-03-27 15:08:31,213     'Content-Length': '4194304'
+2021-03-27 15:08:31,213     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:31,213     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:31,213     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:31,214     'Accept': 'application/xml'
+2021-03-27 15:08:31,214     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:31,214     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:31,214     'x-ms-client-request-id': '9e6cf34f-8ed3-11eb-85d5-005056c00008'
+2021-03-27 15:08:31,214     'Authorization': 'REDACTED'
+2021-03-27 15:08:31,214 A body is sent with the request
+2021-03-27 15:08:33,883 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhOREkyTURZek16WSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:33,884 Response status: 201
+2021-03-27 15:08:33,885 Response headers:
+2021-03-27 15:08:33,885     'Content-Length': '0'
+2021-03-27 15:08:33,886     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:33,886     'x-ms-request-id': 'ae7739bb-f01e-0017-7ee0-226e57000000'
+2021-03-27 15:08:33,887     'x-ms-client-request-id': '9e6cf34f-8ed3-11eb-85d5-005056c00008'
+2021-03-27 15:08:33,887     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:33,888     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:33,889     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:33,889     'Date': 'Sat, 27 Mar 2021 08:08:33 GMT'
+2021-03-27 15:08:33,897 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:33,897 Request method: 'PUT'
+2021-03-27 15:08:33,898 Request headers:
+2021-03-27 15:08:33,898     'Content-Length': '4194304'
+2021-03-27 15:08:33,899     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:33,899     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:33,900     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:33,900     'Accept': 'application/xml'
+2021-03-27 15:08:33,900     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:33,901     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:33,901     'x-ms-client-request-id': 'a006954a-8ed3-11eb-9f57-005056c00008'
+2021-03-27 15:08:33,902     'Authorization': 'REDACTED'
+2021-03-27 15:08:33,902 A body is sent with the request
+2021-03-27 15:08:37,366 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhORFk0TURBMk5EQSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:37,371 Response status: 201
+2021-03-27 15:08:37,372 Response headers:
+2021-03-27 15:08:37,372     'Content-Length': '0'
+2021-03-27 15:08:37,373     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:37,373     'x-ms-request-id': 'ae7742ca-f01e-0017-34e0-226e57000000'
+2021-03-27 15:08:37,373     'x-ms-client-request-id': 'a006954a-8ed3-11eb-9f57-005056c00008'
+2021-03-27 15:08:37,374     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:37,374     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:37,374     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:37,375     'Date': 'Sat, 27 Mar 2021 08:08:36 GMT'
+2021-03-27 15:08:37,383 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:37,384 Request method: 'PUT'
+2021-03-27 15:08:37,384 Request headers:
+2021-03-27 15:08:37,384     'Content-Length': '4194304'
+2021-03-27 15:08:37,384     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:37,384     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:37,385     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:37,385     'Accept': 'application/xml'
+2021-03-27 15:08:37,385     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:37,385     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:37,385     'x-ms-client-request-id': 'a21aaaa7-8ed3-11eb-9ddd-005056c00008'
+2021-03-27 15:08:37,386     'Authorization': 'REDACTED'
+2021-03-27 15:08:37,386 A body is sent with the request
+2021-03-27 15:08:40,751 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhOVEE1T1RRNU5EUSUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:40,756 Response status: 201
+2021-03-27 15:08:40,757 Response headers:
+2021-03-27 15:08:40,758     'Content-Length': '0'
+2021-03-27 15:08:40,759     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:40,760     'x-ms-request-id': 'ae774ef1-f01e-0017-03e0-226e57000000'
+2021-03-27 15:08:40,761     'x-ms-client-request-id': 'a21aaaa7-8ed3-11eb-9ddd-005056c00008'
+2021-03-27 15:08:40,763     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:40,763     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:40,764     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:40,765     'Date': 'Sat, 27 Mar 2021 08:08:39 GMT'
+2021-03-27 15:08:40,773 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:40,773 Request method: 'PUT'
+2021-03-27 15:08:40,773 Request headers:
+2021-03-27 15:08:40,774     'Content-Length': '4194304'
+2021-03-27 15:08:40,774     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:40,774     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:40,774     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:40,774     'Accept': 'application/xml'
+2021-03-27 15:08:40,775     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:40,775     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:40,775     'x-ms-client-request-id': 'a41fc84b-8ed3-11eb-8cb0-005056c00008'
+2021-03-27 15:08:40,775     'Authorization': 'REDACTED'
+2021-03-27 15:08:40,775 A body is sent with the request
+2021-03-27 15:08:45,276 https://tsgblobtestbykhanh.blob.core.windows.net:443 "PUT /backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=block&blockid=TURBd01EQXdNREF3TURBd01EQXdNREF3TURBd01EQXhOVFV4T0RreU5EZyUzRA%3D%3D HTTP/1.1" 201 0
+2021-03-27 15:08:45,279 Response status: 201
+2021-03-27 15:08:45,280 Response headers:
+2021-03-27 15:08:45,281     'Content-Length': '0'
+2021-03-27 15:08:45,281     'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+2021-03-27 15:08:45,281     'x-ms-request-id': 'ae775bfd-f01e-0017-07e0-226e57000000'
+2021-03-27 15:08:45,282     'x-ms-client-request-id': 'a41fc84b-8ed3-11eb-8cb0-005056c00008'
+2021-03-27 15:08:45,283     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:45,283     'x-ms-content-crc64': 'REDACTED'
+2021-03-27 15:08:45,283     'x-ms-request-server-encrypted': 'REDACTED'
+2021-03-27 15:08:45,284     'Date': 'Sat, 27 Mar 2021 08:08:44 GMT'
+2021-03-27 15:08:45,293 Request URL: 'https://tsgblobtestbykhanh.blob.core.windows.net/backupazcopy/Crack%5CaWin10_1909_English_x32.iso?comp=REDACTED&blockid=REDACTED'
+2021-03-27 15:08:45,294 Request method: 'PUT'
+2021-03-27 15:08:45,294 Request headers:
+2021-03-27 15:08:45,295     'Content-Length': '4194304'
+2021-03-27 15:08:45,295     'x-ms-encryption-algorithm': 'REDACTED'
+2021-03-27 15:08:45,296     'x-ms-version': 'REDACTED'
+2021-03-27 15:08:45,297     'Content-Type': 'application/octet-stream'
+2021-03-27 15:08:45,298     'Accept': 'application/xml'
+2021-03-27 15:08:45,298     'User-Agent': 'azsdk-python-storage-blob/12.8.0 Python/3.9.2 (Windows-10-10.0.19041-SP0)'
+2021-03-27 15:08:45,298     'x-ms-date': 'REDACTED'
+2021-03-27 15:08:45,299     'x-ms-client-request-id': 'a6d193cf-8ed3-11eb-ac79-005056c00008'
+2021-03-27 15:08:45,299     'Authorization': 'REDACTED'
+2021-03-27 15:08:45,299 A body is sent with the request

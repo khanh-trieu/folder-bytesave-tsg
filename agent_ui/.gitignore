@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TransferWorker
+/TransferWorker/bin/Debug/netcoreapp3.1
+/TransferWorker/obj
+/TransferWorker/bin/Release/netcoreapp3.1
+/Transfer.UI/obj
+/Transfer.UI/bin/Debug/netcoreapp3.1
+/Netcore.Utils/Netcore.Utils/bin
+/Transfer.UI/bin
+/Transfer.UI/obj
+/Netcore.Utils/Netcore.Utils/obj
+/Netcore.Utils/Netcore.Utils/bin

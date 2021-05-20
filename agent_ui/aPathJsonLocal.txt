@@ -1,0 +1,1 @@
+C:\Program Files (x86)\ByteSave\ByteSave\Service\appsettings.json

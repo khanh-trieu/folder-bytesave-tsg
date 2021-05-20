@@ -1,0 +1,184 @@
+﻿<Window x:Class="TransferWorker.UI.Views.MainWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:views="clr-namespace:TransferWorker.UI.Views"
+        xmlns:local="clr-namespace:TransferWorker.UI.ViewModels"
+        MinHeight="640" 
+        DataContext="{StaticResource vmMain}"
+        FontSize="12"
+        
+        FontFamily="Roboto,sans-serif"
+        mc:Ignorable="d"
+        Title="ByteSave Backup" Height="450" Width="1000">
+
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type local:MainWindowModel}">
+            <views:MainWindowView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:InfoViewModel}">
+            <views:InfoView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:EditConfigBackupViewModel}">
+            <views:EditConfigBackupView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:AddConfigBackupViewModel}">
+            <views:AddConfigBackupView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:EditConfigAppSettingViewModel}">
+            <views:EditConfigAppSettingView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ConfigMenuBackupViewModel}">
+            <views:ConfigMenuBackupView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ListMenuRestoreViewModel}">
+            <views:ListMenuRestoreView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ListFolderRestoreViewModel}">
+            <views:ListFolderRestoreView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ConfigDetailBackupViewModel}">
+            <views:ConfigDetaiBackupView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ConfigMenuViewModel}">
+            <views:ConfigMenuView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:ConfigDetailViewModel}">
+            <views:ConfigDetailView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:AddConfigAppSettingViewModel}">
+            <views:AddConfigAppSettingView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:HistoryViewModel}">
+            <views:HistoryView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:SettingViewModel}">
+            <views:SettingView />
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="2"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"  Background="#ffffff" Margin="0 0 0 -10" IsEnabled="{Binding IsLicense}" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.21*"/>
+                <ColumnDefinition Width="0.7*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="/Assets/tsg.png" Grid.Column="0" Margin="10,10,10,10"  Opacity="1"/>
+
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                </Grid.ColumnDefinitions>
+                <Button  Grid.Column="0" Padding="0" FontSize="15" Height="50" Content="{DynamicResource Connect}"    Style="{StaticResource BackgroudButton}"
+							   Command="{Binding btnAppSettingConfigView}"
+							VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                <Button Grid.Column="1" FontSize="15" Height="50" Content="{DynamicResource Backup}"  Style="{StaticResource BackgroudButton}" 
+							 Command="{Binding btnFolderConfigView}"
+							VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                <Button Grid.Column="2" FontSize="15" Height="50" Content="{DynamicResource Restore}"  BorderThickness="0 0 1 0" BorderBrush="#ffffff"  Style="{StaticResource BackgroudButton}"
+							 Command="{Binding btnRestoreView}"
+							VerticalContentAlignment="Center" VerticalAlignment="Center" />
+                <Button Grid.Column="3" Content="{DynamicResource Setting}" Height="50" FontSize="15"   Style="{StaticResource BackgroudButton}"
+							  Command="{Binding btnSettingView}"
+							 VerticalAlignment="Center" HorizontalContentAlignment="Center"/>
+                <Button Grid.Column="4" Padding="0" FontSize="15" Height="50" Content="{DynamicResource Information}"   
+						 Style="{StaticResource BackgroudButton}"
+							 VerticalAlignment="Center" Command="{Binding btnInfoView}"/>
+                <Button Grid.Column="5" Content="{DynamicResource History}" Height="50" FontSize="15"   Style="{StaticResource BackgroudButton}" 
+							  Command="{Binding btnHistoryView}"
+							 VerticalAlignment="Center" HorizontalContentAlignment="Center"/>
+            </Grid>
+        </Grid>
+        <Border Grid.Row="1" Grid.Column="4"  Background="AliceBlue" BorderThickness="10" />
+        <Grid Grid.Row="2" Grid.Column="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="#D7DFF1">
+                <views:ChildView Content="{Binding ContentMenu}"></views:ChildView>
+                <!--<ContentControl Content="{Binding ContentMenu}" />-->
+            </Grid>
+            <Border Grid.Column="1" Width="5" Background="AliceBlue" BorderThickness="1" />
+            <Grid Grid.Column="2">
+                <!--<view:ConfigDetailViewUC></view:ConfigDetailViewUC>-->
+                <views:ChildView Content="{Binding ContentDetail}"></views:ChildView>
+                <!--<ContentControl Content="{Binding ContentDetail}" />-->
+            </Grid>
+
+            <!--<Grid Grid.Column="4" >
+              
+                <StackPanel
+  Orientation="Horizontal">
+                    <Expander
+    ExpandDirection="Right" 
+          Grid.Row="1" 
+          Grid.Column="1">
+                        <Expander.Header>
+                            <TextBlock
+        Text="Lịch sử "
+        RenderTransformOrigin=".5,.5">
+
+                                <TextBlock.LayoutTransform>
+                                    <RotateTransform
+            Angle="90" />
+                                </TextBlock.LayoutTransform>
+
+                            </TextBlock>
+                        </Expander.Header>
+                        <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24" >
+                            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                                <ItemsControl FontSize="10" ItemsSource="{Binding _Listlogs}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Height="20">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="20"></ColumnDefinition>
+                                                    <ColumnDefinition Width="15"></ColumnDefinition>
+                                                    <ColumnDefinition Width="50"></ColumnDefinition>
+                                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+                                                <Image Source="/Assets/check.png" Grid.Column="0" Width="15" Visibility="{Binding StatusSuccess}"/>
+                                            <Image Source="/Assets/delete.png" Grid.Column="0" Width="15" Visibility="{Binding StatusFalse}"/>
+                                            <TextBlock Text="{Binding Time}" Grid.Column="3" />
+                                                <TextBlock Text="{Binding Tittle}" Grid.Column="2" />
+                                            </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                       
+                            </ScrollViewer>
+                        </StackPanel>
+                    </Expander>
+                    <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+                </StackPanel>
+              
+            </Grid>-->
+        </Grid>
+    </Grid>
+
+
+</Window>

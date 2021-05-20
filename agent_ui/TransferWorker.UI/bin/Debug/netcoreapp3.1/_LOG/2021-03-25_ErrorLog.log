@@ -1,0 +1,454 @@
+2021-03-25 08:26:21.1424 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 08:26:22.6132 ERROR :	LogginView.check_is_logged 
+	[check_is_logged] -> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.check_is_logged() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 42
+2021-03-25 08:26:39.4763 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-25 08:35:54.4895 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-25 08:36:04.1053 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: The remote server returned an error: (500) INTERNAL SERVER ERROR.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-25 08:36:45.9263 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: The remote server returned an error: (500) INTERNAL SERVER ERROR.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-25 08:44:28.9901 ERROR :	LogginView.Submit_Click 
+	[Submit_Click] -> System.Net.WebException: The remote server returned an error: (500) INTERNAL SERVER ERROR.
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Views.LogginView.Submit_Click(Object sender, RoutedEventArgs e) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Views\LogginView.xaml.cs:line 137
+2021-03-25 08:46:23.5251 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 08:46:24.1290 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 08:46:25.3487 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 09:03:26.8956 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:03:31.9896 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:03:38.7414 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:03:40.3968 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:03:48.5642 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 09:04:06.7164 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:04:16.7647 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:04:19.5895 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:46:35.3176 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 09:47:11.5164 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 09:47:12.8810 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 09:47:13.7982 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 11:45:44.4731 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 11:45:56.2808 INFO :	MainWindowModel..ctor 
+	Error MainWinSystem.InvalidOperationException: Application is already running the Dispatcher.
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run()
+   at TransferWorker.UI.ViewModels.MainWindowModel..ctor() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\ViewModels\MainWindowModel.cs:line 105
+2021-03-25 11:46:18.1020 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 838
+2021-03-25 11:47:05.3761 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 11:47:12.0844 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 11:47:13.9380 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 11:47:15.4174 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 11:47:35.1284 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 11:53:02.0697 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 11:53:06.6624 INFO :	MainWindowModel..ctor 
+	Error MainWinSystem.InvalidOperationException: Application is already running the Dispatcher.
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run()
+   at TransferWorker.UI.ViewModels.MainWindowModel..ctor() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\ViewModels\MainWindowModel.cs:line 105
+2021-03-25 11:53:28.3814 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 838
+2021-03-25 11:54:13.4076 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 838
+2021-03-25 11:54:41.4955 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 11:54:57.8516 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 11:54:58.5069 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 11:54:58.9087 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 11:56:04.0855 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 11:56:13.1336 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 11:56:13.8483 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 11:56:14.2924 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:35:30.8203 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:35:35.3417 INFO :	MainWindowModel..ctor 
+	Error MainWinSystem.InvalidOperationException: Application is already running the Dispatcher.
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run()
+   at TransferWorker.UI.ViewModels.MainWindowModel..ctor() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\ViewModels\MainWindowModel.cs:line 105
+2021-03-25 13:35:56.5656 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 839
+2021-03-25 13:36:23.4284 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:37:15.6303 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:37:16.1850 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:16.2142 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:37:19.2538 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:23.8866 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:25.2303 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:26.0375 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:27.2860 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:37:30.2057 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:39:19.3424 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:39:34.3044 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:39:45.1815 INFO :	MainWindowModel..ctor 
+	Error MainWinSystem.InvalidOperationException: Application is already running the Dispatcher.
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at System.Windows.Application.Run()
+   at TransferWorker.UI.ViewModels.MainWindowModel..ctor() in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\ViewModels\MainWindowModel.cs:line 105
+2021-03-25 13:40:06.4316 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 839
+2021-03-25 13:40:32.2516 ERROR :	MainUtility.save_log_agent 
+	[save_log_agent] -> System.Net.WebException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncUnbuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at System.Net.HttpWebRequest.SendRequest()
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at TransferWorker.UI.Utility.MainUtility.save_log_agent(String logcontent, String function, Int32 status, Int32 type, String email_loggin) in D:\TSG_BACKUP\ByteSave\ByteSavefase2\TransferWorker.UI\Utility\MainUtility.cs:line 839
+2021-03-25 13:43:26.2578 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:43:44.1543 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:44:22.6215 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:44:37.2222 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:45:32.0318 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:45:51.6435 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:45:58.4121 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:45:58.4434 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:48:33.0051 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:48:45.6960 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:48:47.0902 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:48:47.1910 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:48:50.4320 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:48:51.5733 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:14.1229 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:49:31.7603 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:49:32.3645 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:32.3969 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:49:35.3875 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:36.2133 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:37.6215 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:40.9744 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:49:59.2386 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:51:07.2414 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:51:17.4102 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:51:18.0320 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:51:18.1160 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:51:23.4589 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:51:40.3826 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:52:29.5196 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:52:30.1939 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:52:30.2234 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 13:52:51.5381 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:53:28.0006 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:53:50.8474 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 13:54:00.5064 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 13:54:01.1756 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 13:54:01.4600 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 14:10:34.0581 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 14:10:38.6646 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 14:10:39.2209 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 14:10:39.4790 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 14:10:43.6849 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 14:28:07.0329 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 14:28:28.7718 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 14:30:09.7035 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 14:30:10.4115 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 14:30:10.7480 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 14:30:12.9318 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 14:31:24.1661 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 14:32:58.6206 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 14:33:19.0754 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 14:33:19.7193 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 14:33:20.0200 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 15:18:31.8923 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:19:07.1138 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:19:36.5574 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 15:19:37.1821 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:19:37.6063 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 15:51:21.2577 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:51:25.1500 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 15:51:25.8357 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:51:26.1734 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 15:51:32.4121 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:53:25.5153 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:53:29.2850 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 15:53:29.9517 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:53:30.2875 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 15:57:23.7495 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:57:27.0856 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 15:57:27.7429 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:57:28.0605 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 15:58:21.5278 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 15:58:24.9773 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 15:58:25.6677 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 15:58:26.0055 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:02:35.6012 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:02:40.2280 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:02:41.0185 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:02:41.4293 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:04:51.0213 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:04:54.3457 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:04:55.1117 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:04:55.4187 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:06:14.4326 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:06:17.4909 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:06:18.1424 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:06:18.4446 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:08:01.8957 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:08:06.7409 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:08:07.5445 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:08:08.0024 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:08:35.5734 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:08:39.3022 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:08:40.1521 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:08:40.5006 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:18:58.7207 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:19:00.3714 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:19:01.3043 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:19:01.7293 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect
+2021-03-25 16:19:07.3812 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:19:22.1525 INFO :	LogginView.InstallMT 
+	InstallMT 
+2021-03-25 16:19:23.3799 INFO :	MainWindowModel..ctor 
+	MainWindowModel
+2021-03-25 16:19:24.0109 INFO :	ConfigMenuViewModel..ctor 
+	ConfigMenuViewModel  System.Collections.Generic.List`1[TransferWorker.UI.Models.connect_bytesave]
+2021-03-25 16:19:24.2483 INFO :	MainWindowModel.AutoConnect 
+	AutoConnect

@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:local="clr-namespace:TransferWorker.UI.Lang">
+
+    <sys:String x:Key="Connect">CONNECTION</sys:String>
+    <sys:String x:Key="Backup">BACKUP</sys:String>
+    <sys:String x:Key="Restore">RESTORE</sys:String>
+    <sys:String x:Key="Setting">SETTING</sys:String>
+    <sys:String x:Key="Information">INFORMATION</sys:String>
+    <sys:String x:Key="History">HISTORY</sys:String>
+    <sys:String x:Key="BackupList">Backup List</sys:String>
+    <sys:String x:Key="ConnectList">Connection List</sys:String>
+    <sys:String x:Key="ContainerList">Container List</sys:String>
+
+    <sys:String x:Key="Copyright">Copyright (C) 2020 TSG</sys:String>
+    <sys:String x:Key="ExpirationDate">Expiration Date:</sys:String>
+    <sys:String x:Key="UpdateLisence">Update Lisence</sys:String>
+
+    <sys:String x:Key="NotInputName">You not</sys:String>
+    
+</ResourceDictionary>

@@ -1,0 +1,96 @@
+﻿<UserControl x:Class="TransferWorker.UI.Views.HistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TransferWorker.UI.Views"
+             x:Name="lbxTest"
+             
+          
+             mc:Ignorable="d"   
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Margin="0,0,10,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" VerticalAlignment="Center" FontWeight="Bold" FontSize="15"  Text="Lịch sử" HorizontalAlignment="Left" />
+                    <TextBlock Grid.Column="1" Foreground="Blue" VerticalAlignment="Center" HorizontalAlignment="Left" Text=" (Được lưu trong 30 ngày gần nhất)"></TextBlock>
+                </Grid>
+                   
+               
+                <Border VerticalAlignment="Bottom"
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True"  />
+                <Grid Grid.Row="1" Margin="10 0 0 0">
+                    <Grid.ColumnDefinitions>
+                        <!--<ColumnDefinition Width="50"/>-->
+                        <ColumnDefinition Width="110"/>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition />
+                      
+                    </Grid.ColumnDefinitions>
+                    <!--<TextBlock Grid.Column="0" Text="STT"  FontWeight="SemiBold"   FontSize="14" Foreground="#52b4eb"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" />-->
+                    <TextBlock Grid.Column="0" Text="Trạng thái"   FontWeight="SemiBold"   FontSize="14" Foreground="#52b4eb"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBlock Grid.Column="1" Text="Tác vụ" FontWeight="SemiBold"   FontSize="14" Foreground="#52b4eb"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBlock Grid.Column="3" Text="Chi tiết"  FontWeight="SemiBold"   FontSize="14" Foreground="#52b4eb"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+                    <TextBlock Grid.Column="2" Text="Thời gian"   FontWeight="SemiBold"   FontSize="14" Foreground="#52b4eb"
+                   HorizontalAlignment="Left" VerticalAlignment="Center" />
+                  
+                </Grid>
+            </Grid>
+            <Border VerticalAlignment="Bottom" 
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="2"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+
+            <Grid Grid.Row="1" Margin="0">
+                <ListBox ItemsSource="{Binding Logs}" x:Name="listview"  ScrollViewer.VerticalScrollBarVisibility="Auto" MaxHeight="560" >
+                        <ListBox.ItemTemplate >
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <!--<ColumnDefinition Width="50"/>-->
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition />
+                                      
+                                    </Grid.ColumnDefinitions>
+
+                                <TextBlock  Text="Thành công" Grid.Column="0" Foreground="Green" Visibility="{Binding StatusSuccess}" />
+                                <TextBlock Text="Không thành công" Grid.Column="0" Foreground="red" Visibility="{Binding StatusFalse}"/>
+                                <TextBlock ToolTip="{Binding Tittle}" Margin="10 0 10 0" Text="{Binding Tittle}" Grid.Column="1" />
+
+                                    <TextBlock TextWrapping="Wrap" MaxWidth="300" Text="{Binding Content}" Grid.Column="3" />
+                                    <TextBlock  Text="{Binding TimeDisplay}" Grid.Column="2" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    
+                    </ListBox>
+              
+            </Grid>
+          
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>avalonia-logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\ConfigAppSettingListViewModel.cs" />
+    <Compile Remove="ViewModels\INotifyTaskCompletion.cs" />
+    <Compile Remove="Views\MainWindow.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\BlogyBNG.png" />
+    <None Remove="Assets\check.png" />
+    <None Remove="Assets\delete.png" />
+    <None Remove="Assets\edit.png" />
+    <None Remove="Assets\error.png" />
+    <None Remove="Assets\file.png" />
+    <None Remove="Assets\folder.png" />
+    <None Remove="Assets\historical.png" />
+    <None Remove="Assets\icon.png" />
+    <None Remove="Assets\logo.png" />
+    <None Remove="Assets\logo2.PNG" />
+    <None Remove="Assets\more.png" />
+    <None Remove="Assets\plus-24.jpg" />
+    <None Remove="Assets\plus.png" />
+    <None Remove="Assets\settings.png" />
+    <None Remove="Assets\test.png" />
+    <None Remove="Assets\tsg.png" />
+    <None Remove="Assets\warning.png" />
+    <None Remove="Views\MainWindow.xaml~RF151cc9.TMP" />
+    <None Remove="Views\settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Views\MainWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\historys.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\App.config" />
+    <None Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.2.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="MaterialDesignColors" Version="1.2.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.Toolkit" Version="6.1.1" />
+    <PackageReference Include="Microsoft.WindowsAzure.ConfigurationManager" Version="3.2.3" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="Nito.AsyncEx" Version="3.0.0" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.0" />
+    <PackageReference Include="Prism.Core" Version="7.2.0.1422" />
+    <PackageReference Include="ReactiveUI" Version="11.5.35" />
+    <PackageReference Include="System.Composition.Runtime" Version="1.4.1" />
+    <PackageReference Include="System.Management" Version="5.0.0" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="4.7.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netcore.Utils\Netcore.Utils\NetCore.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\BlogyBNG.png" />
+    <Resource Include="Assets\check.png" />
+    <Resource Include="Assets\delete.png" />
+    <Resource Include="Assets\edit.png" />
+    <Resource Include="Assets\error.png" />
+    <Resource Include="Assets\file.png" />
+    <Resource Include="Assets\folder.png" />
+    <Resource Include="Assets\historical.png" />
+    <Resource Include="Assets\icon.png" />
+    <Resource Include="Assets\logo.png" />
+    <Resource Include="Assets\logo2.PNG" />
+    <Resource Include="Assets\more.png" />
+    <Resource Include="Assets\plus-24.jpg" />
+    <Resource Include="Assets\plus.png" />
+    <Resource Include="Assets\settings.png" />
+    <Resource Include="Assets\test.png" />
+    <Resource Include="Assets\tsg.png" />
+    <Resource Include="Assets\warning.png" />
+  </ItemGroup>
+
+</Project>

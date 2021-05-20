@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\AddConfigAppSettingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddConfigBackupView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddEmailVIew.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ChildView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConfigDetaiBackupView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConfigDetailView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConfigMenuBackupView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ConfigMenuView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditConfigAppSettingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ErrorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\InfoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ListFolderRestoreView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ListMenuRestoreView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LogginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Lang\EL.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Lang\VN.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourceXAML\MainResouces.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddConfigAppSettingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddConfigBackupView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddEmailVIew.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ChildView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ConfigDetaiBackupView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ConfigDetailView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ConfigMenuBackupView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ConfigMenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditConfigAppSettingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ErrorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\InfoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ListFolderRestoreView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ListMenuRestoreView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LogginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

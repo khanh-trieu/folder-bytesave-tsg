@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "id_agent": 8,
+    "id_metric_service": 10,
+    "metric_service_information_connect": "DefaultEndpointsProtocol=https;AccountName=tsgblobtestbykhanh;AccountKey=46BUwKMiWg+hJx9NSdB46dbL46RmkSLRWnEOkY8aXjASLBFIojsBchdLBdvJCW+2iH91riWgN76gr3ljCXZjdQ==;EndpointSuffix=core.windows.net",
+    "metric_service_max_storage": 500,
+    "name": "Connect 1",
+    "time_create_at": 1614075112,
+    "time_update_at": 1614075112,
+    "type": 1,
+    "type_text": "Azure Blob Storage"
+  }
+]

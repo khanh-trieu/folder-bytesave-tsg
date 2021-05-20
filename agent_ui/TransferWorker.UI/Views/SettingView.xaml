@@ -1,0 +1,213 @@
+﻿<UserControl x:Class="TransferWorker.UI.Views.SettingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TransferWorker.UI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Margin="15 15 0 0">
+
+        <StackPanel >
+            <TextBlock FontSize="18" >Cài đặt chung</TextBlock>
+            <Border  Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"  HorizontalAlignment="Stretch"  SnapsToDevicePixels="True" Margin="0 0 0 10" />
+            <DockPanel  Grid.Row="0">
+                <DockPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Visibility="{Binding IsOK}" Margin="0,0,0,10">
+                    <Button Grid.Column="1" Margin="0 10 10 0" Background="#135995" Content="Kiểm tra"
+   Click="CoolButton_Click"  BorderThickness="0" VerticalAlignment="Bottom" >
+                    </Button>
+                    <Button Grid.Column="1" Margin="0 10 10 0" Background="#076a98" Content="Lưu"
+   Command="{Binding btnOK}"  BorderThickness="0" VerticalAlignment="Bottom" >
+                    </Button>
+                    <Button Grid.Column="1" Margin="0 10 10 0" Foreground="#333" Background="#ededed" Content="Hủy"
+   Command="{Binding btnCancel}"  BorderThickness="0" VerticalAlignment="Bottom" >
+                    </Button>
+                </DockPanel>
+                <StackPanel>
+                    <Grid  Height="40" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="50" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel  HorizontalAlignment="Left" VerticalAlignment="Bottom" >
+                            <TextBlock Grid.Column="0"  FontSize="12" Foreground="Blue" Margin="0,0,10,0" Text="Cấu hình server mail" HorizontalAlignment="Left" />
+                        </StackPanel>
+
+                        <Button Grid.Column="1" Background="{x:Null}"
+   Command="{Binding btnEdit}" 
+  ToolTip="Sửa cấu hình server mail" BorderThickness="0" VerticalAlignment="Bottom" >
+                            <Image Source="/Assets/edit.png" />
+
+                        </Button>
+
+                    </Grid>
+                    <Border
+      Background="{DynamicResource MaterialDesignDivider}"
+      Height="1"
+      HorizontalAlignment="Left"
+      SnapsToDevicePixels="True" Margin="0 0 0 0" Width="110" />
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="0" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="1" Margin="0 15 0 0"  HorizontalAlignment="Right"  Foreground="Red" Text="(*) "/>
+                            <TextBlock Grid.Column="0"   Margin="0,15,0,0" Text="Server mail:" HorizontalAlignment="Right" />
+                        </Grid>
+
+
+                        <TextBox Grid.Column="1" Width="300" HorizontalAlignment="Left"  IsEnabled="{Binding IsInput}" AcceptsReturn="True" Margin="0,10,10,0"
+						  Text="{Binding Host}"
+						   />
+                    </Grid>
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="0" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"   Margin="0,15,0,0" Text="Cổng:" HorizontalAlignment="Right" />
+                            <TextBlock Grid.Column="1" Margin="0 15 0 0"  HorizontalAlignment="Left"  Foreground="Red" Text="(*) "/>
+                        </Grid>
+
+                        <TextBox Grid.Column="1" Width="300" HorizontalAlignment="Left" IsEnabled="{Binding IsInput}" AcceptsReturn="True" Margin="0,10,10,0"
+						  Text="{Binding Port}"
+						   />
+                    </Grid>
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="0" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="1" Margin="0 15 0 0"  HorizontalAlignment="Right"  Foreground="Red" Text="(*) "/>
+                            <TextBlock Grid.Column="0"   Margin="0,15,0,0" Text="Email gửi:" HorizontalAlignment="Right" />
+                        </Grid>
+
+
+                        <TextBox Grid.Column="1" Width="300" HorizontalAlignment="Left" IsEnabled="{Binding IsInput}" AcceptsReturn="True" Margin="0,10,10,0"
+						  Text="{Binding Email,Mode=TwoWay}"
+						   />
+                    </Grid>
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition  />
+                            <ColumnDefinition Width="0" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="1" Margin="0 15 0 0"  HorizontalAlignment="Right"  Foreground="Red" Text="(*) "/>
+                            <TextBlock Grid.Column="0"   Margin="0,15,0,0" Text="Mật khẩu:" HorizontalAlignment="Right" />
+                        </Grid>
+
+                        <PasswordBox IsEnabled="{Binding IsInput}" Width="300" HorizontalAlignment="Left" Margin="0,10,10,0" x:Name="passwordBox"  Grid.Column="1"  
+    PasswordChanged="OnPasswordChanged" />
+                        <!--<TextBox Text="{Binding Pwd}" Width="300" HorizontalAlignment="Left" Margin="0,10,10,0" Grid.Column="1" 
+     FontFamily="pack://application:,,,/Resources/#password" />-->
+                        <!--<PasswordBox IsEnabled="{Binding IsInput}"  Password="{Binding Pwd}" Width="300"  PasswordChanged="OnPasswordChanged" Grid.Column="1" Margin="0,10,10,0" BorderThickness="0,0,0,1"   HorizontalContentAlignment="Left"   >
+                                <PasswordBox.Style>
+                                    <Style xmlns:sys="clr-namespace:System;assembly=mscorlib" TargetType="{x:Type PasswordBox}">
+                                       
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Pwd}" Value="{x:Null}">
+                                               
+                                            </DataTrigger>
+                                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                                <Setter Property="Background" Value="White"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </PasswordBox.Style>
+                            </PasswordBox>-->
+
+
+                    </Grid>
+                    <Grid >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="23*"  />
+                            <ColumnDefinition Width="110*"/>
+                            <ColumnDefinition Width="0" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="1" Margin="0 15 0 0"  HorizontalAlignment="Right"  Foreground="Red" Text="(*) "/>
+                            <TextBlock Grid.Column="0"   Margin="0,15,0,0" Text="Tiêu đề:" HorizontalAlignment="Right" />
+                        </Grid>
+                        <TextBox Grid.Column="1" IsEnabled="{Binding IsInput}"  Margin="0,10,10,0"
+						  Text="{Binding Subject,Mode=TwoWay}" Grid.ColumnSpan="2"
+						   />
+                    </Grid>
+                    <StackPanel>
+                        <Popup Name="myPopup" Placement="Left" HorizontalOffset="500" Panel.ZIndex="000002">
+                            <Border BorderThickness="1">
+                                <StackPanel Height="200" Width="400" Background="#ffffff">
+                                    <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Margin="0 10 0 10">Kiểm trả server mail</TextBlock>
+
+                                    <Grid Margin="0 0 0 10"  Background="#ffffff">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition  />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0" Foreground="Blue"  Margin="0,10,0,0" Text="Email:" HorizontalAlignment="Right" />
+                                        <TextBox Grid.Column="1" Foreground="Blue"  AcceptsReturn="True" Margin="10,5,10,0"
+						  Text="{Binding EmailTest}" />
+                                    </Grid>
+                                    <Grid Margin="0 0 0 10"  Background="#ffffff">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition  />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0" Foreground="Blue"  Margin="0,10,0,0" Text="Nội dung:" HorizontalAlignment="Right" />
+                                        <TextBox  TextWrapping="Wrap" Grid.Column="1" Foreground="Blue"  AcceptsReturn="True" Margin="10,5,10,0"
+						  Text="{Binding ContentTest}" />
+                                    </Grid>
+                                    <Grid>
+                                        <TextBlock FontSize="11" Margin="10 0 0 0" FontWeight="Medium">Nhấn gửi và kiểm tra hộp thư!</TextBlock>
+                                    </Grid>
+                                    <Grid Margin="0 0 10 10" HorizontalAlignment="Right" Background="#ffffff">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="70" />
+                                            <ColumnDefinition Width="70" />
+                                        </Grid.ColumnDefinitions>
+                                        <Button x:Name="YesButton12"  Grid.Column="0" FontSize="12" BorderThickness="0" Foreground="#ffffff" Margin="5" Height="25" Content="Gửi" Background="#076a98" Command="{Binding btnTestEmail}"/>
+                                        <Button x:Name="NoButton12"  FontSize="12" BorderThickness="0" Padding="0" Foreground="#333" Margin="5" Height="25" Content="Hủy" Background="#ededed" Grid.Column="1" Click="NoButton1_Click" />
+                                    </Grid>
+                                    <Grid>
+                                        <TextBlock x:Name="error" Foreground="red" Margin="10 0 0 0" Text="{Binding TextError}"></TextBlock>
+                                        <TextBlock x:Name="success" Foreground="Green" Margin="10 0 0 0" Text="{Binding TextSuccess}"></TextBlock>
+                                    </Grid>
+                                </StackPanel>
+                            </Border>
+                        </Popup>
+                    </StackPanel>
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

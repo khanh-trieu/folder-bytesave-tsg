@@ -1,0 +1,53 @@
+{
+  "Settings": null,
+  "Logs": {
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "MicrosoftHostingLifetime": null
+      }
+    },
+    "LogContents": [
+      {
+        "Tittle": "K\u1EBFt n\u1ED1i",
+        "StatusSuccess": "Visible",
+        "StatusFalse": "Hidden",
+        "TimeDisplay": "30/10/2020 15:28:23",
+        "Time": "2020-10-30T15:28:23.5231063+07:00",
+        "Content": "X\u00F3a: dsdsdsdasdasdasd"
+      },
+      {
+        "Tittle": "K\u1EBFt n\u1ED1i",
+        "StatusSuccess": "Visible",
+        "StatusFalse": "Hidden",
+        "TimeDisplay": "30/10/2020 15:28:23",
+        "Time": "2020-10-30T15:28:23.5231063+07:00",
+        "Content": "X\u00F3a: dsdsdsdasdasdasd"
+      },
+      {
+        "Tittle": "Ph\u1EE5c h\u1ED3i",
+        "StatusSuccess": "Visible",
+        "StatusFalse": "Hidden",
+        "TimeDisplay": "30/10/2020 15:48:37",
+        "Time": "2020-10-30T15:48:37.9229977+07:00",
+        "Content": "Ph\u1EE5c h\u1ED3i th\u00E0nh c\u00F4ng 2 file"
+      },
+      {
+        "Tittle": "Sao l\u01B0u",
+        "StatusSuccess": "Visible",
+        "StatusFalse": "Hidden",
+        "TimeDisplay": "30/10/2020 16:31:06",
+        "Time": "2020-10-30T16:31:06.9717456+07:00",
+        "Content": "S\u1EEDa: T\u00E1c v\u1EE5 v\u1EDBi c\u00E1i t\u00EAn d\u00E0i \u0111\u1EBFn t\u1EADn \u0111\u00E2y c\u01A1 m\u00E0"
+      }
+    ]
+  },
+  "LastRunTime": null,
+  "IsRunNow": false,
+  "host": null,
+  "email": null,
+  "pwd": null,
+  "subject": null,
+  "port": null
+}
