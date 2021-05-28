@@ -57,7 +57,7 @@ namespace TransferWorker.UI.Views
             switch (result)
             {
                 case MessageBoxResult.Yes:
-                    var BYTESAVE_API_PBL = System.Configuration.ConfigurationSettings.AppSettings["BYTESAVE_API_PBL"];
+                    var BYTESAVE_API_PBL =  System.Configuration.ConfigurationManager.AppSettings["BYTESAVE_API_PBL"];
                     HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(BYTESAVE_API_PBL + "dang-xuat/" + Get_Serial_number());
                     WebReq.Method = "GET";
                     HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();

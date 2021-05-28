@@ -46,7 +46,6 @@ namespace TransferWorker.UI.Utility
                 new MainUtility().save_log_agent(ex.ToString(), "MainWindowModel", 0, 0, "");
                 return new AppJson();
             }
-
         }
         public void WriteConfig(Settings _settings)
         {

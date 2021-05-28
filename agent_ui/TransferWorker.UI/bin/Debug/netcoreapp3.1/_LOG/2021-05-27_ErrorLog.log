@@ -1,0 +1,13 @@
+2021-05-27 23:21:15.3571 INFO :	<InstallMT>d__29.MoveNext 
+	InstallMT 
+2021-05-27 23:21:26.8192 ERROR :	<Submit_Click>d__18.MoveNext 
+	[textBoxEmail.Text] -> khanh.trieu@tsg.net.vn
+2021-05-27 23:21:27.6815 ERROR :	<loggin_api>d__19.MoveNext 
+	[WebReq] -> http://35.185.180.100:8002/dang-nhap/khanh.trieu@tsg.net.vn/12/Windows 8/NXGNPSV0378291E5997600/171.229.229.251/192.168.192.1/DESKTOP-J9RTBFG
+2021-05-27 23:21:27.6815 ERROR :	<loggin_api>d__19.MoveNext 
+	[BYTESAVE_API_PBL] -> http://35.185.180.100:5000/
+2021-05-27 23:21:28.2280 ERROR :	<loggin_api>d__19.MoveNext 
+	[json] -> {
+  "msg": "Mật khẩu nhập không chính xác!",
+  "status": "false"
+}

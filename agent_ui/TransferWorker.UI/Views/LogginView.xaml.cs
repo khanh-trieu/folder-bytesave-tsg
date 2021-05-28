@@ -195,7 +195,7 @@ namespace TransferWorker.UI.Views
                 }
                 else
                 {
-                    
+                    NLogManager.LogError("[textBoxEmail.Text] -> " + textBoxEmail.Text);
                     string email = textBoxEmail.Text;
                     string password = passwordBox1.Password;
                     pb.IsIndeterminate = true;
@@ -228,11 +228,11 @@ namespace TransferWorker.UI.Views
         }
         public async Task<bool> loggin_api(string email, string password)
         {
-            var BYTESAVE_API_PBL = System.Configuration.ConfigurationSettings.AppSettings["BYTESAVE_API_PBL"];
-            string api_loggin = System.Configuration.ConfigurationSettings.AppSettings["api_loggin"];
+            var BYTESAVE_API_PBL = System.Configuration.ConfigurationManager.AppSettings["BYTESAVE_API_PBL"];
+            string api_loggin = System.Configuration.ConfigurationManager.AppSettings["api_loggin"];
             //HttpResponseMessage response = await client.GetAsync(BYTESAVE_API_PBL + "dang-nhap/" + email + "/" + pwd + "/" + GetOsName() + "/" + Get_Serial_number() + "/" + GetIPAddress() + "/" + GetIPPrivate() + "/" + GetNameCompany());
-            HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(BYTESAVE_API_PBL + api_loggin + email + "/" + password + "/" + GetOsName() + "/" + Get_Serial_number() + "/" + GetIPAddress() + "/" + GetIPPrivate() + "/" + GetNameCompany());
-
+            HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create( BYTESAVE_API_PBL + api_loggin + email + "/" + password + "/" + GetOsName() + "/" + Get_Serial_number() + "/" + GetIPAddress() + "/" + GetIPPrivate() + "/" + GetNameCompany());
+            NLogManager.LogError("[WebReq] -> " + WebReq.RequestUri.OriginalString.ToString());
             WebReq.Method = "GET";
 
             HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();

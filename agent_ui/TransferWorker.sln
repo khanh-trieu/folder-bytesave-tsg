@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferWorker.UI", "Transf
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_ByteSave", "Setup_ByteSave\Setup_ByteSave.vdproj", "{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupByteSave", "SetupByteSave\SetupByteSave.vdproj", "{6971A6E4-469F-43DB-BBF8-1F3BBB37AF32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{BFC5461B-3775-453C-89C3-0AC59A18B9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}.Debug|Any CPU.ActiveCfg = Debug
 		{1A4B7BAD-691F-4B9F-8517-D8A0F52155AB}.Release|Any CPU.ActiveCfg = Release
+		{6971A6E4-469F-43DB-BBF8-1F3BBB37AF32}.Debug|Any CPU.ActiveCfg = Debug
+		{6971A6E4-469F-43DB-BBF8-1F3BBB37AF32}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
